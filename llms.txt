@@ -1,8 +1,8 @@
-# SnipOCR
+# CaptureOCR
 
-> SnipOCR 是一款 Windows 截图、标注与 OCR 一体化工作流工具，面向中文/中日英混排场景，基于 PP-OCRv6 离线引擎，支持多选区批量识别与 Markdown/CSV 结构化导出，微软商店买断制 $12.99。
+> CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for Chinese/CJK mixed-text scenarios. It uses the PP-OCRv6 offline engine, supports multi-region batch recognition and structured Markdown/CSV export, and is available as a one-time purchase ($2.99) on the Microsoft Store.
 
-- 微软商店：https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1
-- 核心能力：多选区连续 OCR、结构化导出、标注+美化+OCR 闭环
-- 离线可用：tiny 模型内置，开箱断网识别
-- 不支持：滚动截图（路线图 P1）、表格/竖排结构化识别（P2）
+- Microsoft Store: https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1
+- Core capabilities: multi-region batch OCR, structured Markdown/CSV export, annotation + beautify + OCR in one window
+- Offline: tiny model bundled, OCR works without internet
+- Not supported: scrolling capture (roadmap P1), table/vertical-text structured recognition (P2)
