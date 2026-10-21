@@ -1,7 +1,7 @@
 title: "CaptureOCR"
-description: "CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for Chinese/CJK mixed-text scenarios. PP-OCRv6 offline engine, multi-region batch OCR, and structured Markdown/CSV export."
+description: "CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for America, Chinese/CJK mixed-text scenarios. PP-OCRv6 offline engine, multi-region batch OCR, and structured Markdown/CSV export."
 url: "https://lijiannan1241.github.io"
-baseurl: "/SnipOCR"
+baseurl: "/CaptureOCR"
 theme: minima
 plugins:
   - jekyll-seo-tag
