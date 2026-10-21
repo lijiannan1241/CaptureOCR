@@ -16,10 +16,8 @@ description: "CaptureOCR 是一款微软商店买断制的 Windows 截图/标注
    aria-label="在 Microsoft Store 中获取 CaptureOCR">
   <img src="assets/ms-store-badge-zh.png"
        alt="在 Microsoft Store 中获取 CaptureOCR"
-       width="200"
-       style="height:auto; border:0;">
+       width="200" style="height:auto; border:0;">
 </a>
-
 ---
 
 ## 为什么选 CaptureOCR，而不是系统截图工具或现有竞品？
