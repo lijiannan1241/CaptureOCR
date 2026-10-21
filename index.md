@@ -86,7 +86,7 @@ A: Scrolling capture is on the roadmap (P1). The current release prioritizes sta
   "description": "CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for Chinese/CJK mixed-text scenarios. It uses the PP-OCRv6 offline engine, supports multi-region batch recognition and structured Markdown/CSV export, and is available as a one-time purchase on the Microsoft Store.",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Windows 10, Windows 11",
-  "url": "https://lijiannan1241.github.io/SnipOCR/",
+  "url": "https://lijiannan1241.github.io/CaptureOCR/",
   "downloadUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
   "offers": {
     "@type": "Offer",
