@@ -8,7 +8,7 @@
        width="200" style="height:auto; border:0;">
 </a>
 
-[Website](https://lijiannan1241.github.io/SnipOCR/) · [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1) · [FAQ](https://lijiannan1241.github.io/SnipOCR/#常见问题faq)
+[Website](https://lijiannan1241.github.io/CaptureOCR/) · [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1) · [FAQ](https://lijiannan1241.github.io/SnipOCR/#常见问题faq)
 
 ---
 
