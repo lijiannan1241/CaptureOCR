@@ -86,8 +86,8 @@ A: Scrolling capture is on the roadmap (P1). The current release prioritizes sta
 ## Links
 
 - **Microsoft Store**: https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1
-- **Product site (GitHub Pages)**: https://lijiannan1241.github.io/SnipOCR/
-- **Source repository**: https://github.com/lijiannan1241/SnipOCR
+- **Product site (GitHub Pages)**: https://lijiannan1241.github.io/CaptureOCR/
+- **Source repository**: https://github.com/lijiannan1241/CaptureOCR
 
 ---
 
