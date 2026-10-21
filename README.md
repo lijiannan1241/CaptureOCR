@@ -37,7 +37,7 @@ That is the workflow gap that neither free system tools nor paid competitors cur
 | **Bilingual UI** | English and Simplified Chinese, switchable at runtime. |
 
 ---
-<img src="pic3.PNG">
+<img src="pic4.PNG">
 
 ## How It Compares
 
