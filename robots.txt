@@ -8,6 +8,8 @@ User-agent: Bytespider
 Allow: /
 User-agent: Google-Extended
 Allow: /
+
 User-agent: *
 Allow: /
+
 Sitemap: https://lijiannan1241.github.io/SnipOCR/sitemap.xml
