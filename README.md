@@ -23,6 +23,7 @@ Windows 11 already has built-in OCR (Text Actions) and PowerToys Text Extractor 
 That is the workflow gap that neither free system tools nor paid competitors currently fill.
 
 ---
+<img src="pic1.PNG">
 
 ## Key Features
 
