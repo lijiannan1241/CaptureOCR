@@ -1,9 +1,27 @@
+# Replace the matching keys in _config.yml.
+# Keep url/baseurl as-is; the site is a project page.
+
 title: "CaptureOCR"
-description: "CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for America, Chinese/CJK mixed-text scenarios. PP-OCRv6 offline engine, multi-region batch OCR, and structured Markdown/CSV export."
+description: "CaptureOCR turns Windows screenshots into structured text: capture multiple regions, annotate them, and export Markdown or CSV with offline PP-OCRv6 OCR for Chinese, English, and mixed layouts."
 url: "https://lijiannan1241.github.io"
 baseurl: "/CaptureOCR"
 theme: minima
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
 lang: en
+github_username: nannan2008
+show_downloads: false
+
+twitter:
+  card: summary_large_image
+
+# Optional: add these pages to the header once they exist.
+header_pages:
+  - index.md
+#   - privacy.md
+#   - changelog.md
+
+
