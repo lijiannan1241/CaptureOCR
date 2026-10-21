@@ -43,7 +43,7 @@ Windows 11's Snipping Tool has included local OCR (Text Actions) since 2023, and
 
 ### Feature 1: CJK mixed-text OCR fills a real gap
 
-PP-OCRv6 performs noticeably better than the Windows built-in OCR on Chinese, vertical text, rare characters, and small dot-matrix fonts. CaptureOCR offers **Fast mode (tiny, ~6.6 MB)** and **Accurate mode (small, ~29.8 MB)**, letting users choose the speed/accuracy trade-off without needing to understand "models." Internal measurements show tiny at roughly 78.7 ms per image and small at roughly 257.5 ms (on a local CPU with ONNX Runtime). Official figures of 317 ms / 654 ms use a different benchmark configuration and are not presented as product commitments.
+PP-OCRv6 performs noticeably better than the Windows built-in OCR on American, Chinese, vertical text, rare characters, and small dot-matrix fonts. CaptureOCR offers **Fast mode (tiny, ~6.6 MB)** and **Accurate mode (small, ~29.8 MB)**, letting users choose the speed/accuracy trade-off without needing to understand "models." Internal measurements show tiny at roughly 78.7 ms per image and small at roughly 257.5 ms (on a local CPU with ONNX Runtime). Official figures of 317 ms / 654 ms use a different benchmark configuration and are not presented as product commitments.
 
 ### Feature 2: Multi-region batch OCR + structured export (no competitor covers this)
 
