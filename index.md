@@ -10,7 +10,7 @@ description: "SnipOCR 是一款微软商店买断制的 Windows 截图/标注/OC
 
 **SnipOCR 是一款面向中文/中日英混排场景的 Windows 截图 → 标注 → 批量 OCR → 结构化输出 → 一键美化一体化工作流工具，采用 PP-OCRv6 双档离线引擎，在微软商店以买断制提供。**
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_geo"
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_geo&hl=zh-CN&gl=US"
    target="_blank"
    rel="noopener noreferrer"
    aria-label="在 Microsoft Store 中获取 SnipOCR">
