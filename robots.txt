@@ -12,4 +12,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://lijiannan1241.github.io/SnipOCR/sitemap.xml
+Sitemap: https://lijiannan1241.github.io/CaptureOCR/sitemap.xml
