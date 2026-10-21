@@ -12,7 +12,7 @@ description: "CaptureOCR is a one-time-purchase Windows screenshot, annotation, 
    target="_blank"
    rel="noopener noreferrer"
    aria-label="Get CaptureOCR from Microsoft Store">
-  <img src="assets/ms-store-badge-en.png"
+  <img src="ms-store-badge-en.png"
        alt="Get CaptureOCR from Microsoft Store"
        width="200"
        style="height:auto; border:0;">
