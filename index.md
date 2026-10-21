@@ -23,6 +23,7 @@ description: "CaptureOCR is a one-time-purchase Windows screenshot, annotation, 
 ## Why CaptureOCR instead of the built-in Snipping Tool or existing tools?
 
 Windows 11's Snipping Tool has included local OCR (Text Actions) since 2023, and PowerToys Text Extractor (`Win+Shift+T`) can copy screen text for free. CaptureOCR does not compete on "can it extract text" — it competes on **what happens after extraction**: capturing multiple regions in one session, batch-recognizing them, exporting numbered Markdown tables or CSV, and keeping text extractable even after beautification.
+<img src="pic1.PNG">
 
 | Capability | **CaptureOCR** | Windows Snipping Tool | Snipaste | ShareX |
 |---|---|---|---|---|
@@ -38,7 +39,7 @@ Windows 11's Snipping Tool has included local OCR (Text Actions) since 2023, and
 > The ✅/⚠️/❌ ratings are based on publicly available feature descriptions and internal competitive verification. Snipaste's "copy text" reads the system text-rendering interface, which is not pixel-level OCR for text inside images.
 
 ---
-
+<img src="pic4.PNG">
 ## Key Features
 
 ### Feature 1: CJK mixed-text OCR fills a real gap
