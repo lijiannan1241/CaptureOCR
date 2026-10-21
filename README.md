@@ -3,7 +3,7 @@
 **A Windows screenshot, annotation, and OCR workflow tool built for Chinese/CJK mixed-text scenarios — offline, one-time purchase, and available on the Microsoft Store.**
 
 <a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_readme">
-  <img src="https://get.microsoft.com/images/microsoft-store-badge.png"
+  <img src="https://get.microsoft.com/images/ms-store-badge-en.png"
        alt="Get CaptureOCR from Microsoft Store"
        width="200" style="height:auto; border:0;">
 </a>
