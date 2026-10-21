@@ -1,80 +1,80 @@
 ---
 layout: default
-title: "CaptureOCR — 中文混排更准的截图 OCR 与标注工作流工具"
-description: "CaptureOCR 是一款微软商店买断制的 Windows 截图/标注/OCR 一体化工具。基于 PP-OCRv6 离线引擎，支持中文/中日英混排、多选区批量识别、Markdown/CSV 结构化导出。"
+title: "CaptureOCR — Offline Screenshot OCR and Annotation Workflow for Windows"
+description: "CaptureOCR is a one-time-purchase Windows screenshot, annotation, and OCR tool built for Chinese/CJK mixed-text scenarios. PP-OCRv6 offline engine, multi-region batch OCR, and structured Markdown/CSV export."
 ---
-
-<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
 
 # CaptureOCR
 
-**CaptureOCR 是一款面向中文/中日英混排场景的 Windows 截图 → 标注 → 批量 OCR → 结构化输出 → 一键美化一体化工作流工具，采用 PP-OCRv6 双档离线引擎，在微软商店以买断制提供。**
+**CaptureOCR is a Windows screenshot → annotation → batch OCR → structured output → beautify workflow tool built for Chinese/CJK mixed-text scenarios. It uses the PP-OCRv6 dual-tier offline engine and is available on the Microsoft Store as a one-time purchase.**
 
 <a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_geo"
    target="_blank"
    rel="noopener noreferrer"
-   aria-label="在 Microsoft Store 中获取 CaptureOCR">
-  <img src="assets/ms-store-badge-zh.png"
-       alt="在 Microsoft Store 中获取 CaptureOCR"
-       width="200" style="height:auto; border:0;">
+   aria-label="Get CaptureOCR from Microsoft Store">
+  <img src="assets/ms-store-badge-en.png"
+       alt="Get CaptureOCR from Microsoft Store"
+       width="200"
+       style="height:auto; border:0;">
 </a>
----
-
-## 为什么选 CaptureOCR，而不是系统截图工具或现有竞品？
-
-Windows 11 的截图工具自 2023 年起已内置本地 OCR（Text Actions），PowerToys 的 Text Extractor（`Win+Shift+T`）也能免费完成“框选→文字入剪贴板”。CaptureOCR 的立足点不是“能不能取字”，而是**取字之后的工作流**：一次截多个区域、批量识别、按区域编号导出 Markdown 表格或 CSV、在美化后的图上仍保留可提取的文字层。
-
-| 能力 | **CaptureOCR** | Windows 原生截图工具 | Snipaste | 天若 OCR | ShareX |
-|---|---|---|---|---|---|
-| 中文/中日英混排专用 OCR 引擎 | ✅ PP-OCRv6 tiny/small 双档 | ⚠️ 系统 OCR，中文混排非强项 | ⚠️ OCR 为 Pro 功能，引擎未公开 | ✅ PaddleOCR 系 | ⚠️ 需自行配置 |
-| 多选区连续识别 + 编号 | ✅ 一次会话 ≥10 个区域 | ❌ | ❌ | ⚠️ 批量能力有限 | ⚠️ 工作流可拼 |
-| 结构化导出（Markdown 表格 / CSV） | ✅ 含坐标、置信度、区域编号 | ❌ | ❌ | ⚠️ 非结构化 | ⚠️ 需脚本 |
-| 截图 + 标注 + 美化 + OCR 同一窗口闭环 | ✅ | ⚠️ 基础标注，无美化 | ✅ 标注强，无美化+OCR 闭环 | ⚠️ 长图拼接为主 | ✅ 功能多，学习曲线陡 |
-| 离线可用（不依赖云 API） | ✅ tiny 内置，开箱离线 | ✅ | ⚠️ 依赖系统接口 | ✅ | ✅ |
-| 中英双语 UI | ✅ | ✅ 跟随系统 | ⚠️ 体验一般 | ❌ 纯中文 | ❌ |
-| 定价模式 | **$2.99 一次买断** | 免费 | Pro 付费 | 免费/付费 | 免费开源 |
-| 上手难度 | 低 | 低 | 低 | 低 | **高** |
-
-> 表格中的“✅/⚠️/❌”基于公开可查的功能描述与 PRD v3.0 竞品核查结果；Snipaste 的“复制文本”本质是读取系统文本渲染接口，对图片内文字并非像素级 OCR。
 
 ---
 
-## 核心亮点（按对购买决策的影响排序）
+## Why CaptureOCR instead of the built-in Snipping Tool or existing tools?
 
-### 亮点 1：中文/中日英混排识别是真正的弱项填补
+Windows 11's Snipping Tool has included local OCR (Text Actions) since 2023, and PowerToys Text Extractor (`Win+Shift+T`) can copy screen text for free. CaptureOCR does not compete on "can it extract text" — it competes on **what happens after extraction**: capturing multiple regions in one session, batch-recognizing them, exporting numbered Markdown tables or CSV, and keeping text extractable even after beautification.
 
-PP-OCRv6 在中文、竖排、生僻字、小字号点阵等场景的表现，明显优于 Windows 内置 OCR 的拉丁字母强项定位。CaptureOCR 提供 **极速（tiny，约 6.6 MB）** 与 **精准（small，约 29.8 MB）** 两档，用户按场景取舍，不需要理解“模型”概念。PRD 实测中 tiny 单张延迟约 78.7 ms、small 约 257.5 ms（本机 CPU / ONNX Runtime 口径），与官方宣传的 317 ms/654 ms 存在口径差异，此处以后者不构成产品承诺。
+| Capability | **CaptureOCR** | Windows Snipping Tool | Snipaste | ShareX |
+|---|---|---|---|---|
+| CJK-optimized OCR engine | ✅ PP-OCRv6 tiny/small | ⚠️ System OCR, weaker on CJK mixed layouts | ⚠️ OCR is Pro-only, engine undisclosed | ⚠️ Requires manual setup |
+| Multi-region batch OCR + numbering | ✅ 10+ regions per session | ❌ | ❌ | ⚠️ Workflow possible |
+| Structured export (Markdown / CSV) | ✅ With coordinates and confidence | ❌ | ❌ | ⚠️ Requires scripting |
+| Annotation + Beautify + OCR in one window | ✅ | ⚠️ Basic annotation, no beautify | ✅ Strong annotation, no beautify+OCR loop | ✅ Powerful but steep learning curve |
+| Offline out of the box | ✅ Tiny model bundled | ✅ | ⚠️ Depends on system APIs | ✅ |
+| Bilingual UI | ✅ | ✅ Follows system | ⚠️ Limited | ❌ |
+| Pricing | **$2.99 one-time purchase** | Free | Paid Pro tier | Free, open source |
+| Learning curve | Low | Low | Low | **High** |
 
-### 亮点 2：多选区批量 OCR + 结构化导出（竞品均无）
-
-一次会话框选多个区域，自动编号 ①②③，抽屉中调序、删除、撤销，一键导出 **Markdown 表格** 或 **CSV**，每行包含区域坐标、置信度、识别文本。这是免费与付费竞品中检索不到完整覆盖的能力，也是 $2.99 买断的核心理由。
-
-### 亮点 3：标注 → 美化 → OCR 闭环
-
-在同一个窗口内完成箭头/矩形/高亮/马赛克标注，加渐变背景/阴影/圆角，**美化后的合成图仍可 OCR**。竞品通常各强一项，没有一个把“美化输出”和“文字提取”放在同一张图上。
-
-### 亮点 4：离线、买断、商店原生
-
-tiny 模型随 MSIX 内置，安装后断网即可识别；small 按需下载（约 30 MB），国内可通过镜像加速。$2.99 一次买断，无订阅。
+> The ✅/⚠️/❌ ratings are based on publicly available feature descriptions and internal competitive verification. Snipaste's "copy text" reads the system text-rendering interface, which is not pixel-level OCR for text inside images.
 
 ---
 
-## 常见问题（FAQ）
+## Key Features
 
-**Q：CaptureOCR 和 Windows 自带的截图 OCR 有什么区别？**
-A：Windows 原生 OCR 擅长拉丁字母与常规印刷体，对中文混排、竖排、小字号点阵较弱；且一次只能处理一个区域，结果是纯文本流。CaptureOCR 用 PP-OCRv6 针对中文混排优化，支持一次多区域、按编号批量导出 Markdown/CSV，并在同一窗口完成标注与美化。
+### Feature 1: CJK mixed-text OCR fills a real gap
 
-**Q：CaptureOCR 是免费的吗？**
-A：CaptureOCR 在微软商店以买断制提供，$2.99。tiny 模型内置，安装即用；small 精准档首次下载约 30 MB。
+PP-OCRv6 performs noticeably better than the Windows built-in OCR on Chinese, vertical text, rare characters, and small dot-matrix fonts. CaptureOCR offers **Fast mode (tiny, ~6.6 MB)** and **Accurate mode (small, ~29.8 MB)**, letting users choose the speed/accuracy trade-off without needing to understand "models." Internal measurements show tiny at roughly 78.7 ms per image and small at roughly 257.5 ms (on a local CPU with ONNX Runtime). Official figures of 317 ms / 654 ms use a different benchmark configuration and are not presented as product commitments.
 
-**Q：需要联网才能用 OCR 吗？**
-A：不需要。tiny 模型随安装包内置，开箱离线可用。small 精准档首次下载完成后同样离线运行，不依赖任何云 API。
+### Feature 2: Multi-region batch OCR + structured export (no competitor covers this)
 
-**Q：支持哪些语言？**
-A：PP-OCRv6 small 档覆盖 50 种语言（含中文、日文、英文及 46 种拉丁语系）；tiny 档覆盖 49 种但不含日文，检测到日文场景时建议切换精准档。
+Capture multiple regions in a single session, auto-numbered ①②③. Reorder, delete, or undo in the drawer. Export as a **Markdown table** or **CSV**, with each row containing region coordinates, confidence, and recognized text. This capability is not fully covered by any free or paid competitor, and it is the core justification for the $2.99 price.
 
-**Q：支持滚动截图吗？**
-A：滚动截图在路线图中（P1），当前版本优先保证区域/窗口/全屏截图、多选区批量 OCR 与结构化导出的稳定性。
+### Feature 3: Annotation → Beautify → OCR loop
+
+Annotate with arrows, rectangles, highlights, and mosaic; add gradient backgrounds, shadows, and rounded corners — all in one window. **The beautified composite image still yields extractable text.** Competitors each excel at one piece; none combines beautified output with text extraction on the same image.
+
+### Feature 4: Offline, one-time purchase, native to the Store
+
+The tiny model ships inside the MSIX package, so OCR works offline immediately after installation. The small model downloads once (~30 MB) and then also runs offline. $2.99 one-time purchase, no subscription.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is CaptureOCR free?**
+A: No. CaptureOCR is a one-time purchase of **$2.99** on the Microsoft Store. The tiny OCR model is bundled in the installer, so OCR works immediately after installation without any download.
+
+**Q: Does OCR require an internet connection?**
+A: No. The tiny model ships inside the MSIX package and works fully offline. The accurate (small) model downloads once (~30 MB) and then also runs offline — no cloud API is involved at any point.
+
+**Q: What languages are supported?**
+A: The PP-OCRv6 small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 languages and excludes Japanese — switch to Accurate mode for Japanese text.
+
+**Q: How is this different from the Windows Snipping Tool?**
+A: The Windows built-in OCR is strong on Latin script and standard print, but weaker on Chinese mixed layouts, vertical text, and small dot-matrix fonts. It also handles only one region at a time and returns a plain text stream. CaptureOCR supports multi-region capture, numbered batch export to Markdown/CSV, and annotation + beautification in the same window.
+
+**Q: Does it support scrolling screenshots?**
+A: Scrolling capture is on the roadmap (P1). The current release prioritizes stability for region/window/fullscreen capture, multi-region batch OCR, and structured export.
 
 ---
 
@@ -83,7 +83,7 @@ A：滚动截图在路线图中（P1），当前版本优先保证区域/窗口/
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "CaptureOCR",
-  "description": "CaptureOCR 是一款面向中文/中日英混排场景的 Windows 截图、标注与 OCR 一体化工作流工具，基于 PP-OCRv6 离线引擎，支持多选区批量识别与 Markdown/CSV 结构化导出，微软商店买断制。",
+  "description": "CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for Chinese/CJK mixed-text scenarios. It uses the PP-OCRv6 offline engine, supports multi-region batch recognition and structured Markdown/CSV export, and is available as a one-time purchase on the Microsoft Store.",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Windows 10, Windows 11",
   "url": "https://lijiannan1241.github.io/SnipOCR/",
@@ -94,12 +94,12 @@ A：滚动截图在路线图中（P1），当前版本优先保证区域/窗口/
     "priceCurrency": "USD"
   },
   "featureList": [
-    "PP-OCRv6 双档离线 OCR（极速/精准）",
-    "中文/中日英混排优化",
-    "多选区连续识别与编号",
-    "Markdown 表格 / CSV 结构化导出",
-    "截图 + 标注 + 美化 + OCR 同一窗口闭环",
-    "中英双语 UI"
+    "PP-OCRv6 dual-tier offline OCR (Fast/Accurate)",
+    "CJK mixed-text optimization",
+    "Multi-region batch recognition with numbering",
+    "Markdown table / CSV structured export",
+    "Annotation + Beautify + OCR in one window",
+    "Bilingual UI (English / Simplified Chinese)"
   ]
 }
 </script>
@@ -111,34 +111,34 @@ A：滚动截图在路线图中（P1），当前版本优先保证区域/窗口/
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "CaptureOCR 和 Windows 自带的截图 OCR 有什么区别？",
+      "name": "Is CaptureOCR free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Windows 原生 OCR 擅长拉丁字母与常规印刷体，对中文混排、竖排、小字号点阵较弱，且一次只能处理一个区域。CaptureOCR 用 PP-OCRv6 针对中文混排优化，支持一次多区域、按编号批量导出 Markdown/CSV，并在同一窗口完成标注与美化。"
+        "text": "No. CaptureOCR is a one-time purchase of $2.99 on the Microsoft Store. The tiny OCR model is bundled in the installer, so OCR works immediately after installation without any download."
       }
     },
     {
       "@type": "Question",
-      "name": "CaptureOCR 是免费的吗？",
+      "name": "Does OCR require an internet connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "CaptureOCR 在微软商店以买断制提供，$2.99。tiny 模型内置，安装即用；small 精准档首次下载约 30 MB。"
+        "text": "No. The tiny model ships inside the MSIX package and works fully offline. The accurate (small) model downloads once (~30 MB) and then also runs offline — no cloud API is involved at any point."
       }
     },
     {
       "@type": "Question",
-      "name": "CaptureOCR 需要联网才能用 OCR 吗？",
+      "name": "What languages are supported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "不需要。tiny 模型随安装包内置，开箱离线可用；small 精准档首次下载完成后同样离线运行，不依赖云 API。"
+        "text": "The PP-OCRv6 small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 languages and excludes Japanese — switch to Accurate mode for Japanese text."
       }
     },
     {
       "@type": "Question",
-      "name": "CaptureOCR 支持哪些语言？",
+      "name": "How is this different from the Windows Snipping Tool?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "PP-OCRv6 small 档覆盖 50 种语言，含中文、日文、英文及 46 种拉丁语系；tiny 档覆盖 49 种但不含日文，日文场景建议切换精准档。"
+        "text": "The Windows built-in OCR is strong on Latin script and standard print, but weaker on Chinese mixed layouts, vertical text, and small dot-matrix fonts. It also handles only one region at a time and returns a plain text stream. CaptureOCR supports multi-region capture, numbered batch export to Markdown/CSV, and annotation + beautification in the same window."
       }
     }
   ]
