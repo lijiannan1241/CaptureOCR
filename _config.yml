@@ -13,9 +13,6 @@ author:
 # Theme
 theme: minima
 
-# safe
-safe: true
-
 # Plugins
 plugins:
   - jekyll-seo-tag
