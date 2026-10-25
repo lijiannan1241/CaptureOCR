@@ -157,6 +157,13 @@ $2.99 one-time purchase on the Microsoft Store. No subscription, no cloud API, n
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock"
   },
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "ratingCount": "20",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
   "publisher": {
     "@type": "Organization",
     "name": "CaptureOCR",
