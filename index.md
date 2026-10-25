@@ -1,14 +1,20 @@
 ---
 layout: default
-title: "CaptureOCR — Offline Screenshot OCR and Annotation Workflow for Windows"
-description: "CaptureOCR is a one-time-purchase Windows screenshot, annotation, and OCR tool built for Chinese/CJK mixed-text scenarios. PP-OCRv6 offline engine, multi-region batch OCR, and structured Markdown/CSV export."
+title: "CaptureOCR — Offline OCR & Batch Export for Windows"
+description: "Offline CJK OCR for Windows. Batch 10+ regions per session, export Markdown/CSV with coordinates and confidence. $2.99 one-time on Microsoft Store."
+image: "/og-image.png"
 ---
 
 # CaptureOCR
 
-**CaptureOCR is a Windows screenshot → annotation → batch OCR → structured output → beautify workflow tool built for Chinese/CJK mixed-text scenarios. It uses the PP-OCRv6 dual-tier offline engine and is available on the Microsoft Store as a one-time purchase.**
+**CaptureOCR is a Windows screenshot → annotation → batch OCR → structured output → beautify workflow tool built for Chinese/CJK mixed-text scenarios.** It runs the PP-OCRv6 dual-tier engine fully offline and is available on the Microsoft Store as a one-time purchase.
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_geo"
+- **Offline by default** — the tiny model ships inside the MSIX package; no cloud API is involved at any point.
+- **Batch, not one-shot** — capture 10+ regions per session, auto-numbered ①–⑩, and export a numbered Markdown table or CSV.
+- **Structured output** — every exported row carries region coordinates, confidence, and the recognized text.
+- **Annotation + Beautify + OCR in one window** — the beautified composite image still yields extractable text.
+
+<a href="https://apps.microsoft.com/detail/9pbp8vbg4rj1?cid=github_pages_geo&hl=en-us"
    target="_blank"
    rel="noopener noreferrer"
    aria-label="Get CaptureOCR from Microsoft Store">
@@ -23,7 +29,12 @@ description: "CaptureOCR is a one-time-purchase Windows screenshot, annotation, 
 ## Why CaptureOCR instead of the built-in Snipping Tool or existing tools?
 
 Windows 11's Snipping Tool has included local OCR (Text Actions) since 2023, and PowerToys Text Extractor (`Win+Shift+T`) can copy screen text for free. CaptureOCR does not compete on "can it extract text" — it competes on **what happens after extraction**: capturing multiple regions in one session, batch-recognizing them, exporting numbered Markdown tables or CSV, and keeping text extractable even after beautification.
-<img src="pic1.PNG">
+
+<img src="pic1.PNG"
+     alt="CaptureOCR batch OCR workspace showing numbered capture regions and a Markdown export preview"
+     width="1200" height="675"
+     loading="lazy" decoding="async">
+<!-- TODO: 把 width/height 改成 pic1.PNG 的真实像素尺寸 -->
 
 | Capability | **CaptureOCR** | Windows Snipping Tool | Snipaste | ShareX |
 |---|---|---|---|---|
@@ -39,7 +50,21 @@ Windows 11's Snipping Tool has included local OCR (Text Actions) since 2023, and
 > The ✅/⚠️/❌ ratings are based on publicly available feature descriptions and internal competitive verification. Snipaste's "copy text" reads the system text-rendering interface, which is not pixel-level OCR for text inside images.
 
 ---
-<img src="pic4.PNG">
+
+## How the workflow runs
+
+1. **Capture** — drag to select one region, or capture 10+ regions in a single session; each region is auto-numbered.
+2. **Recognize** — Fast mode (tiny, ~6.6 MB, bundled) or Accurate mode (small, ~29.8 MB, one-time download). Both run offline via ONNX Runtime.
+3. **Export** — download a numbered Markdown table or CSV where every row carries coordinates, confidence, and text; or annotate, beautify, and still extract text from the composite.
+
+---
+
+<img src="pic4.PNG"
+     alt="CaptureOCR annotation and beautify panel with gradient background, shadow, and rounded corners applied to a screenshot"
+     width="1200" height="675"
+     loading="lazy" decoding="async">
+<!-- TODO: 把 width/height 改成 pic4.PNG 的真实像素尺寸 -->
+
 ## Key Features
 
 ### Feature 1: CJK mixed-text OCR fills a real gap
@@ -60,24 +85,53 @@ The tiny model ships inside the MSIX package, so OCR works offline immediately a
 
 ---
 
+## System requirements
+
+- Windows 10 (version 1809 or later) or Windows 11
+- x64 processor
+- Approximately 50 MB of disk space with the tiny model bundled; additional ~30 MB if you install the Accurate model
+- No internet connection required after installation
+
+<!-- TODO: 请把上面四条改成产品的真实系统要求 -->
+
+---
+
 ## Frequently Asked Questions
 
 **Q: Is CaptureOCR free?**
+
 A: No. CaptureOCR is a one-time purchase of **$2.99** on the Microsoft Store. The tiny OCR model is bundled in the installer, so OCR works immediately after installation without any download.
 
 **Q: Does OCR require an internet connection?**
+
 A: No. The tiny model ships inside the MSIX package and works fully offline. The accurate (small) model downloads once (~30 MB) and then also runs offline — no cloud API is involved at any point.
 
 **Q: What languages are supported?**
+
 A: The PP-OCRv6 small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 languages and excludes Japanese — switch to Accurate mode for Japanese text.
 
 **Q: How is this different from the Windows Snipping Tool?**
+
 A: The Windows built-in OCR is strong on Latin script and standard print, but weaker on Chinese mixed layouts, vertical text, and small dot-matrix fonts. It also handles only one region at a time and returns a plain text stream. CaptureOCR supports multi-region capture, numbered batch export to Markdown/CSV, and annotation + beautification in the same window.
 
 **Q: Does it support scrolling screenshots?**
+
 A: Scrolling capture is on the roadmap (P1). The current release prioritizes stability for region/window/fullscreen capture, multi-region batch OCR, and structured export.
 
 ---
+
+## Get CaptureOCR
+
+$2.99 one-time purchase on the Microsoft Store. No subscription, no cloud API, no account required.
+
+<a href="https://apps.microsoft.com/detail/9pbp8vbg4rj1?cid=github_pages_geo&hl=en-us"
+   target="_blank"
+   rel="noopener noreferrer">
+  <img src="ms-store-badge-en.png"
+       alt="Get CaptureOCR from Microsoft Store"
+       width="200"
+       style="height:auto; border:0;">
+</a>
 
 <script type="application/ld+json">
 {
@@ -86,13 +140,26 @@ A: Scrolling capture is on the roadmap (P1). The current release prioritizes sta
   "name": "CaptureOCR",
   "description": "CaptureOCR is a Windows screenshot, annotation, and OCR workflow tool built for Chinese/CJK mixed-text scenarios. It uses the PP-OCRv6 offline engine, supports multi-region batch recognition and structured Markdown/CSV export, and is available as a one-time purchase on the Microsoft Store.",
   "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "OCR Software",
   "operatingSystem": "Windows 10, Windows 11",
   "url": "https://lijiannan1241.github.io/CaptureOCR/",
-  "downloadUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
+  "downloadUrl": "https://apps.microsoft.com/detail/9pbp8vbg4rj1",
+  "screenshot": [
+    "https://lijiannan1241.github.io/CaptureOCR/pic1.PNG",
+    "https://lijiannan1241.github.io/CaptureOCR/pic4.PNG"
+  ],
+  "inLanguage": ["en", "zh-CN"],
+  "isAccessibleForFree": false,
   "offers": {
     "@type": "Offer",
     "price": "2.99",
-    "priceCurrency": "USD"
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CaptureOCR",
+    "url": "https://lijiannan1241.github.io/CaptureOCR/"
   },
   "featureList": [
     "PP-OCRv6 dual-tier offline OCR (Fast/Accurate)",
@@ -101,7 +168,8 @@ A: Scrolling capture is on the roadmap (P1). The current release prioritizes sta
     "Markdown table / CSV structured export",
     "Annotation + Beautify + OCR in one window",
     "Bilingual UI (English / Simplified Chinese)"
-  ]
+  ],
+  "dateModified": "2026-10-25"
 }
 </script>
 
@@ -140,6 +208,14 @@ A: Scrolling capture is on the roadmap (P1). The current release prioritizes sta
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Windows built-in OCR is strong on Latin script and standard print, but weaker on Chinese mixed layouts, vertical text, and small dot-matrix fonts. It also handles only one region at a time and returns a plain text stream. CaptureOCR supports multi-region capture, numbered batch export to Markdown/CSV, and annotation + beautification in the same window."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it support scrolling screenshots?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scrolling capture is on the roadmap (P1). The current release prioritizes stability for region/window/fullscreen capture, multi-region batch OCR, and structured export."
       }
     }
   ]
