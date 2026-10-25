@@ -1,27 +1,60 @@
-# Replace the matching keys in _config.yml.
-# Keep url/baseurl as-is; the site is a project page.
-
+# Site
 title: "CaptureOCR"
-description: "CaptureOCR turns Windows screenshots into structured text: capture multiple regions, annotate them, and export Markdown or CSV with offline PP-OCRv6 OCR for Chinese, English, and mixed layouts."
+description: "Offline CJK OCR for Windows: batch 10+ regions, export Markdown/CSV with coordinates and confidence. $2.99 one-time on Microsoft Store."
 url: "https://lijiannan1241.github.io"
 baseurl: "/CaptureOCR"
+
+# Language & author
+lang: en
+author:
+  name: "CaptureOCR"
+  url: "https://lijiannan1241.github.io/CaptureOCR/"
+
+# Theme
 theme: minima
 
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
-lang: en
-github_username: nannan2008
-show_downloads: false
-
+# Social / OG
 twitter:
   card: summary_large_image
+#  username: your_twitter_handle   # 有账号时取消注释
 
-# Optional: add these pages to the header once they exist.
-header_pages:
-  - index.md
+# Default OG image for jekyll-seo-tag (og:image / twitter:image)
+image: "/og-image.png"
+
+# Search engine verification (fill after registering)
+# google_site_verification: "your-google-verification-token"
+# bing_site_verification: "your-bing-verification-token"
+
+# GitHub (deployed at lijiannan1241.github.io — verify this matches your account)
+github_username: lijiannan1241
+
+# Theme UI
+show_downloads: false
+
+# Defaults: apply layout to every page
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude non-site files from build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - "*.gemspec"
+
+# Header nav: uncomment when these pages exist
+# header_pages:
 #   - privacy.md
 #   - changelog.md
-
-
