@@ -13,30 +13,30 @@ author:
 # Theme
 theme: minima
 
-# Plugins (GitHub Pages will run in safe mode automatically; no need to set safe: true)
+# Plugins — 不要设置 safe: true，GitHub Pages 线上构建本身即强制安全模式
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
 
-# Social / OG — 如果没有 Twitter 账号，整个块注释掉
+# 如果没有 Twitter/X 账号，整块注释掉；否则填入 username
 # twitter:
 #   card: summary_large_image
+#   username: your_handle
 
 # Default OG image
-image: "/pic2.PNG"
+image: "/og-image.png"
 
-# Search engine verification (uncomment and fill after registering)
+# Search engine verification（注册后取消注释并填入 token）
 # google_site_verification: "your-token"
 # bing_site_verification: "your-token"
 
-# GitHub
 github_username: lijiannan1241
 
-# Theme UI
 show_downloads: false
 
-# Exclude non-site files
+# 删除 defaults 块：让每个页面在 front matter 中自行声明 layout，避免未来子页面布局被强制覆盖
+
 exclude:
   - README.md
   - LICENSE
@@ -47,7 +47,7 @@ exclude:
   - "*.gemspec"
   - llms.txt
 
-# Header nav: uncomment when pages exist
+# header_pages: 等 privacy.md / changelog.md 实际存在后再取消注释
 # header_pages:
 #   - privacy.md
 #   - changelog.md
