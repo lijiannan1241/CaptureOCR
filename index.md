@@ -3,6 +3,7 @@ layout: default
 title: "CaptureOCR — Offline OCR & Batch Export for Windows"
 description: "Offline CJK OCR for Windows. Batch 10+ regions per session, export Markdown/CSV with coordinates and confidence. $2.99 one-time on Microsoft Store."
 image: "/og-image.png"
+last_modified_at: 2026-10-25
 ---
 
 # CaptureOCR
