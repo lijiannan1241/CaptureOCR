@@ -189,10 +189,10 @@ last_modified_at: 2026-10-27
   <div class="stats">
     <div class="container">
       <div class="stats-grid">
-        <div class="stat"><b>10+</b><span>regions per session</span></div>
-        <div class="stat"><b>2</b><span>OCR tiers (tiny/small)</span></div>
-        <div class="stat"><b>50</b><span>languages (small)</span></div>
-        <div class="stat"><b>$2.99</b><span>one-time</span></div>
+        <div class="stat"><b>10+</b><span> regions per session</span></div>
+        <div class="stat"><b>2</b><span> OCR tiers (tiny/small)</span></div>
+        <div class="stat"><b>50</b><span> languages (small)</span></div>
+        <div class="stat"><b>$2.99</b><span> one-time</span></div>
       </div>
     </div>
   </div>

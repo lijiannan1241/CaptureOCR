@@ -189,10 +189,10 @@ last_modified_at: 2026-10-27
   <div class="stats">
     <div class="container">
       <div class="stats-grid">
-        <div class="stat"><b>10+</b><span>区域/会话</span></div>
-        <div class="stat"><b>2</b><span>OCR 档位 (tiny/small)</span></div>
-        <div class="stat"><b>50</b><span>语言 (small 档)</span></div>
-        <div class="stat"><b>¥21</b><span>一次性购买</span></div>
+        <div class="stat"><b>10+</b><span> 区域/会话</span></div>
+        <div class="stat"><b>2</b><span> OCR 档位 (tiny/small)</span></div>
+        <div class="stat"><b>50</b><span> 语言 (small 档)</span></div>
+        <div class="stat"><b>¥21</b><span> 一次性购买</span></div>
       </div>
     </div>
   </div>
