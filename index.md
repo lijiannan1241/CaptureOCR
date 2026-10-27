@@ -6,390 +6,618 @@ image: "/assets/og-cover.png"
 last_modified_at: 2026-10-27
 ---
 
-<style>
-  .wrapper { max-width: 1080px; }
-  .hero { padding: 0.5rem 0 1.5rem; }
-  .eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; color: #2563eb; font-weight: 700; margin-bottom: 0.4rem; }
-  .hero h1 { font-size: 2.7rem; line-height: 1.12; margin: 0.1em 0 0.35em; }
-  .lede { font-size: 1.15rem; line-height: 1.55; color: #374151; max-width: 54rem; }
-  .cta { margin: 1.4rem 0 0.5rem; }
-  .btn { display: inline-block; background: #2563eb; color: #fff !important; padding: 0.7em 1.1em; border-radius: 8px; font-weight: 600; text-decoration: none; }
-  .btn:hover { background: #1d4ed8; }
-  .btn.ghost { background: transparent; color: #2563eb !important; border: 1px solid #2563eb; }
-  .meta { color: #6b7280; font-size: 0.9rem; }
-  figure { margin: 1.6rem 0; }
-  figure img { width: 100%; height: auto; border: 1px solid #e5e7eb; border-radius: 12px; display: block; }
-  figcaption { color: #6b7280; font-size: 0.9rem; margin-top: 0.5rem; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.2rem 0; }
-  .card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.1rem; background: #fff; }
-  .card h3 { margin-top: 0; margin-bottom: 0.4rem; font-size: 1.05rem; }
-  .card p { margin-bottom: 0; color: #374151; }
-  .steps { margin: 1rem 0; }
-  .step { border-left: 3px solid #2563eb; padding-left: 1.1rem; margin: 1.6rem 0; }
-  .step h3 { margin-top: 0; }
-  .note { background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.2rem; }
-  .footer-meta { color: #6b7280; font-size: 0.9rem; margin-top: 2.5rem; }
-  .video-wrapper { position: relative; width: 100%; max-width: 1080px; aspect-ratio: 16/9; margin: 1.5rem 0; border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb; background: #000; }
-  .video-wrapper video { width: 100%; height: 100%; display: block; }
-  @media (max-width: 600px) {
-    .hero h1 { font-size: 2rem; }
-    .lede { font-size: 1.05rem; }
-  }
-</style>
+<!-- ================================================================
+     CaptureOCR — GitHub Pages (Jekyll) — Rebuilt to match
+     ebook-voice-player layout and SEO/GEO standards
+     ================================================================ -->
 
-<section class="hero">
-  <p class="eyebrow">Windows 10/11 · Offline OCR · One-time purchase</p>
-  <h1>Screenshot OCR that ends in a table, not a folder of PNGs.</h1>
-  <p class="lede">Capture several regions in one pass, annotate them, and export a numbered Markdown table or CSV. PP-OCRv6 runs locally on Windows — Chinese, English, and mixed layouts. No account, no upload, no subscription.</p>
-  <p class="cta"><a class="btn" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero" target="_blank" rel="noopener">Get CaptureOCR — $2.99</a> <a class="btn ghost" href="#how-it-works">See how it works</a></p>
-  <p class="meta">Windows 10/11 x64 · 126 MB · v1.0.0 · One-time purchase</p>
+<!-- Skip link for accessibility -->
+<a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- Microsoft Store Badge -->
-  <p class="cta" style="margin-top: 0.5rem;">
-    <a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero_badge" target="_blank" rel="noopener" aria-label="Get CaptureOCR from Microsoft Store">
-      <img src="{{ '/assets/ms-store-badge-en.png' | relative_url }}" alt="Get CaptureOCR from Microsoft Store" width="180" style="height:auto; border:0; border-radius:4px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+<!-- Inline SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 20h16"/></symbol>
+    <symbol id="i-store" viewBox="0 0 32 32">
+      <path d="M6.5 10.5h19L24 29H8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M11.5 10.5V8.6a4.5 4.5 0 0 1 9 0v1.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <rect x="11" y="14.6" width="4.2" height="4.2" fill="#f25022"/>
+      <rect x="16.8" y="14.6" width="4.2" height="4.2" fill="#7fba00"/>
+      <rect x="11" y="20.4" width="4.2" height="4.2" fill="#00a4ef"/>
+      <rect x="16.8" y="20.4" width="4.2" height="4.2" fill="#ffb900"/>
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" style="fill:currentColor;stroke:none"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5L20 6.5"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M3 11v2"/><path d="M7 8v8"/><path d="M11 5v14"/><path d="M15 8v8"/><path d="M19 11v2"/></symbol>
+    <symbol id="i-table" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18M9 3v18" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-crop" viewBox="0 0 24 24"><path d="M3.5 3.5h4M3.5 3.5v4M20.5 3.5h-4M20.5 3.5v4M3.5 20.5h4M3.5 20.5v-4M20.5 20.5h-4M20.5 20.5v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-export" viewBox="0 0 24 24"><path d="M12 5v14M18 11l-6 6-6-6"/><path d="M4 19h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m10 12 8 4-8 4z" fill="currentColor"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16"/><path d="m13 5 7 7-7 7"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-offline" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M3 9l18 18"/><rect x="3" y="3" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.2-4.2"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4.2L6 21z"/></symbol>
+    <symbol id="i-type" viewBox="0 0 24 24"><path d="M4 6V4h16v2"/><path d="M12 4v16"/><path d="M9 20h6"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11"/><path d="M9 12h11"/><path d="M9 18h11"/><path d="M4.5 6h.01"/><path d="M4.5 12h.01"/><path d="M4.5 18h.01"/></symbol>
+  </defs>
+</svg>
+
+<script>document.documentElement.classList.add('js');</script>
+
+<!-- =========================== HEADER =========================== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="CaptureOCR home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="presentation">
+          <rect x="2" y="4" width="10" height="10" rx="2" fill="#2563eb"/>
+          <rect x="14" y="4" width="8" height="10" rx="2" fill="#2563eb"/>
+          <rect x="2" y="16" width="10" height="6" rx="2" fill="#2563eb"/>
+          <rect x="14" y="16" width="8" height="6" rx="2" fill="#2563eb"/>
+          <path d="M4 6h6M4 9h4M15 5h5M15 8h3M15 17h5M15 20h3" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+        </svg>
+      </span>
+      CaptureOCR
     </a>
-  </p>
 
-  <!-- Trust indicators -->
-  <p class="meta" style="margin-top: 1rem; display:flex; align-items:center; gap:1rem; flex-wrap:wrap; justify-content:center; font-size:0.85rem;">
-    <span style="display:flex; align-items:center; gap:0.4rem; color:#107c10;">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L3.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>
-      Verified on Microsoft Store
-    </span>
-    <span style="display:flex; align-items:center; gap:0.4rem; color:#0078d4;">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0 1A9 9 0 1 0 8 1a9 9 0 0 0 0 16Z"/><path fill="#FFF" d="M11.5 5.5H9V11h2.5V5.5ZM6.5 5.5H4v5.5h2.5V5.5Z"/></svg>
-      Windows 10/11 compatible
-    </span>
-    <span style="display:flex; align-items:center; gap:0.4rem; color:#6b7280;">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm3.5 6.5a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1 0-1.5h7a.75.75 0 0 1 .75.75Z"/></svg>
-      Offline • No account • No subscription
-    </span>
-  </p>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
 
-  <figure>
-    <img src="{{ '/assets/shots/01-hero.png' | relative_url }}"
-         alt="CaptureOCR window with five numbered regions on a vendor invoice next to an exported Markdown table with coordinates and confidence."
-         width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
-    <figcaption>One capture session, five regions, one Markdown table — with coordinates and confidence for every row. Illustrative composite; the table is exported by CaptureOCR.</figcaption>
-  </figure>
-
-  <!-- Demo Video -->
-  <div class="video-wrapper">
-    <video controls preload="metadata" poster="{{ '/assets/shots/01-hero.png' | relative_url }}">
-      <source src="{{ '/assets/videos/capture_01_1080p.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="#problem">Problem</a>
+      <a href="#features">Features</a>
+      <a href="#video">Trailer</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#faq">FAQ</a>
+      <span class="lang-switch" aria-label="Language">
+        <a href="{{ '/' | relative_url }}" aria-current="page" hreflang="en" lang="en">EN</a>
+        <a href="{{ '/zh/' | relative_url }}" hreflang="zh-Hans" lang="zh-Hans">中文</a>
+      </span>
+      <a class="btn btn-primary" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_nav" rel="noopener" target="_blank">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+        Get the app
+      </a>
+    </nav>
   </div>
-  <p class="meta" style="text-align:center;">Watch CaptureOCR in action — multi-region capture, OCR, and Markdown/CSV export.</p>
+</header>
+
+<!-- =========================== MAIN =========================== -->
+<main id="main">
+
+<!-- --------------------------- HERO --------------------------- -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Windows 10/11 · Offline OCR · One-time purchase</p>
+      <h1 id="hero-title">Screenshot OCR that ends in a <em>table</em>, not a folder of PNGs</h1>
+      <p class="lede">Capture several regions in one pass, annotate them, and export a numbered Markdown table or CSV. PP-OCRv6 runs locally on Windows — Chinese, English, and mixed layouts. No account, no upload, no subscription.</p>
+
+      <div class="hero-actions">
+        <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+          <svg class="store-badge-icon" aria-hidden="true"><use href="#i-store"/></svg>
+          <span class="store-badge-text">
+            <span class="store-badge-kicker">Get it from</span>
+            <span class="store-badge-name">Microsoft Store</span>
+          </span>
+        </a>
+        <a class="btn btn-ghost" href="#video">
+          <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>
+          Watch the trailer
+        </a>
+      </div>
+
+      <p class="hero-meta">
+        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Windows 10 & 11 (x64)</span>
+        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Signed MSIX</span>
+        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Offline first</span>
+        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> No account</span>
+      </p>
+    </div>
+
+    <div class="mockup-wrap">
+      <div class="mockup" role="img" aria-label="CaptureOCR screenshot: five numbered capture regions on an invoice document with the exported Markdown table showing region index, coordinates, confidence and recognized text">
+        <div class="mockup-bar" aria-hidden="true">
+          <i></i><i></i><i></i>
+          <span>CaptureOCR — Invoice OCR session</span>
+        </div>
+        <div class="mockup-grid" aria-hidden="true">
+          <div class="mockup-canvas">
+            <div class="mockup-regions">
+              <div class="region region-1" style="top: 8%; left: 6%; width: 38%; height: 12%;"><span class="region-badge">①</span></div>
+              <div class="region region-2" style="top: 24%; left: 6%; width: 38%; height: 8%;"><span class="region-badge">②</span></div>
+              <div class="region region-3" style="top: 36%; left: 6%; width: 38%; height: 8%;"><span class="region-badge">③</span></div>
+              <div class="region region-4" style="top: 48%; left: 6%; width: 44%; height: 22%;"><span class="region-badge">④</span></div>
+              <div class="region region-5" style="top: 74%; left: 6%; width: 38%; height: 10%;"><span class="region-badge">⑤</span></div>
+            </div>
+          </div>
+          <div class="mockup-sidebar">
+            <p class="mockup-label">Exported Markdown</p>
+            <pre class="mockup-table" aria-hidden="true"><code>| # | Region (x,y,w,h) | Line | Conf | Text |
+|---|---|---|---|---|
+| 1 | (120,45,380,80) | 1 | 0.998 | Invoice #INV-2024-001 |
+| 2 | (120,140,380,60) | 1 | 0.992 | Date: 2024-01-15 |
+| 3 | (120,210,380,60) | 1 | 0.995 | Vendor: Acme Corp |
+| 4 | (120,280,450,200) | 1 | 0.987 | Item: Widget A × 100 |
+| 4 | (120,280,450,200) | 2 | 0.981 | Price: $25.00 each |
+| 5 | (120,520,380,70) | 1 | 0.999 | Total: $2,500.00 |</code></pre>
+          </div>
+        </div>
+        <div class="mockup-footer" aria-hidden="true">
+          <span class="mockup-badge">5 regions captured</span>
+          <span class="mockup-badge">Markdown exported</span>
+          <span class="mockup-badge">Coordinates included</span>
+        </div>
+      </div>
+      <p class="mockup-note"><span class="pulse" aria-hidden="true"></span> Real capture session — five regions, one Markdown table with coordinates & confidence.</p>
+    </div>
+  </div>
 </section>
 
----
-
-## Copying text out of screenshots is still a manual loop
-
-- **One region at a time.** Snipping Tool and PowerToys Text Extractor return a text blob, not a dataset.
-- **Retype, reformat, lose the source.** By the time it reaches Docs or Excel, the region number and coordinates are gone.
-- **Beautify, and the text becomes pixels again.** Annotated images look great and stop being searchable.
-
-CaptureOCR is the step between "I have a screenshot" and "I have usable data."
-
----
-
-## How it works
-
-<div class="steps">
-<div class="step">
-<h3>1. Capture every region in one session</h3>
-<p>Drag around each field, row, label, or error message. Regions are numbered ① ② ③ automatically; reorder, delete, or undo before you recognize anything. Tested with 10+ regions in a single session.</p>
-<figure>
-  <img src="{{ '/assets/shots/02-regions.png' | relative_url }}"
-       alt="CaptureOCR region drawer with five numbered screenshot regions captured from one document."
-       width="1920" height="1080" loading="lazy" decoding="async">
-  <figcaption>Regions are numbered automatically. Reorder or delete before you export.</figcaption>
-</figure>
-</div>
-
-<div class="step">
-<h3>2. Recognize locally</h3>
-<p>The tiny PP-OCRv6 model ships inside the app (about 6.6 MB), so OCR works offline immediately after install. For harder pages, download the small model once (about 30 MB) and switch to Accurate mode. Screenshots and recognized text stay on your device.</p>
-</div>
-
-<div class="step">
-<h3>3. Export structure, not a text blob</h3>
-<p>Export a Markdown table, CSV, TXT, or a session package. Every row carries its region index, coordinates, confidence, and recognized text — ready for Excel, a ticket, a research note, or a documentation page.</p>
-<figure>
-  <img src="{{ '/assets/shots/03-export.png' | relative_url }}"
-       alt="Exported Markdown table from CaptureOCR showing region index, coordinates, confidence, and recognized text."
-       width="1920" height="1080" loading="lazy" decoding="async">
-  <figcaption>Markdown or CSV. Every row carries its region index, coordinates, confidence, and text.</figcaption>
-</figure>
-</div>
-</div>
-
----
-
-## What you get
-
-<div class="grid">
-<div class="card">
-<h3>Multi-region, numbered</h3>
-<p>Capture 10+ regions in one pass. Auto-numbered, reorderable, with undo — no more 12 separate snips and 12 copy-paste rounds.</p>
-</div>
-<div class="card">
-<h3>Structured export</h3>
-<p>Markdown table or CSV with region index, coordinates, confidence, and text. Paste into Excel, Notion, Jira, or a README without cleanup.</p>
-</div>
-<div class="card">
-<h3>Annotate, beautify, still OCR</h3>
-<p>Arrows, boxes, highlights, mosaic, gradient backgrounds, shadows, and rounded corners — in the same window. The beautified image still yields extractable text.</p>
-</div>
-<div class="card">
-<h3>Offline and one-time</h3>
-<p>Tiny model bundled, no account, no upload, no subscription. $2.99 once. The accurate model is an optional one-time download.</p>
-</div>
-</div>
-
-<figure>
-  <img src="{{ '/assets/shots/04-annotate-beautify.png' | relative_url }}"
-       alt="CaptureOCR annotation canvas with arrows and mosaic next to an OCR panel that still extracts text from the beautified image."
-       width="1920" height="1080" loading="lazy" decoding="async">
-  <figcaption>Annotate and beautify in the same window; the exported image still yields extractable text.</figcaption>
-</figure>
-
----
-
-## Built for work that arrives as screenshots
-
-<div class="grid">
-<div class="card">
-<h3>Support</h3>
-<p>An error dialog, a log line, and a customer message become three numbered rows in one table you can paste into the ticket.</p>
-</div>
-<div class="card">
-<h3>Research</h3>
-<p>Pull table cells, figure labels, and citations out of PDFs and pages. Keep coordinates so you can trace every row back to the source.</p>
-</div>
-<div class="card">
-<h3>Finance and operations</h3>
-<p>Invoice number, date, vendor, amount, and PO number go straight into CSV — no retyping, no transcription errors.</p>
-</div>
-</div>
-
----
-
-## How it compares
-
-| | **CaptureOCR** | Windows Snipping Tool | PowerToys Text Extractor | Snipaste |
-|---|---|---|---|---|
-| Multi-region batch + numbering | ✅ | ❌ | ❌ | ❌ |
-| Structured Markdown/CSV with coordinates | ✅ | ❌ | ❌ | ❌ |
-| Annotate + beautify + OCR in one window | ✅ | ⚠️ Basic annotation | ❌ | ⚠️ Annotation only |
-| Chinese / English / mixed CJK layouts | ✅ PP-OCRv6 | ⚠️ System OCR | ⚠️ System OCR | ⚠️ OCR is a Pro feature |
-| Works offline out of the box | ✅ | ✅ | ✅ | — |
-| Price | **$2.99 once** | Free | Free | Paid Pro tier |
-
-> Based on public feature documentation as of October 2026. Features change; verify before purchase. Snipaste's OCR is a Pro feature; PowerToys copies plain text rather than structured rows. "—" means not assessed in this comparison.
-
----
-
-## Performance and limits
-
-- **Speed:** internal measurement of about 78.7 ms per image for the tiny model and 257.5 ms for the small model, on a local CPU with ONNX Runtime. This is not a performance promise; it depends on image size and hardware.
-- **Languages:** the small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 and excludes Japanese — use Accurate mode for Japanese.
-- **Scrolling capture:** included as best-effort in v1.0. It works best in apps with stable scrolling; virtualized or lazy-loading lists can fail. Region capture is the reliable fallback.
-- **Requirements:** Windows 10/11 x64, 126 MB installed, CPU inference, no GPU required.
-
----
-
-## Pricing
-
-**$2.99 once.** No subscription, no account, no per-page OCR fee. Regional pricing and any trial shown on the Microsoft Store listing are set by the Store.
-
-<p class="cta"><a class="btn" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_body" target="_blank" rel="noopener">Get CaptureOCR on the Microsoft Store</a></p>
-
----
-
-## Available on Microsoft Store
-
-<div style="text-align:center; margin:1.5rem 0;">
-  <a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_store_section" target="_blank" rel="noopener" aria-label="Get CaptureOCR from Microsoft Store">
-    <img src="{{ '/assets/ms-store-badge-en.png' | relative_url }}" alt="Get CaptureOCR from Microsoft Store" width="220" style="height:auto; border:0; border-radius:6px; box-shadow:0 4px 16px rgba(0,0,0,0.1); transition:transform 0.2s;">
-  </a>
-</div>
-
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem; margin:1.5rem 0; padding:1rem; background:#f8fafc; border-radius:10px; border:1px solid #e5e7eb;">
-  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#107c10;">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M17.22 5.28a.75.75 0 0 1 0 1.06l-9 9a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06L8 14.19l8.16-8.15a.75.75 0 0 1 1.06 0Z"/></svg>
-    <span>Verified publisher on Microsoft Store</span>
-  </div>
-  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#0078d4;">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M10 20A10 10 0 1 0 10 0a10 10 0 0 0 0 20Zm0 1A11 11 0 1 0 10 1a11 11 0 0 0 0 20Z"/><path fill="#FFF" d="M14.5 7H11V17.5h3.5V7ZM9.5 7H5.5v5.5h4V7Z"/></svg>
-    <span>Windows 10/11 certified</span>
-  </div>
-  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#6b7280;">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M10 3.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm4.5 6.5a.75.75 0 0 1-.75.75h-11a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 .75.75Z"/></svg>
-    <span>Secure payment via Microsoft</span>
-  </div>
-  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#6b7280;">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M10 3.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm-3.5 5a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Z"/></svg>
-    <span>One-time purchase, no subscription</span>
+<!-- --------------------------- STATS BAR --------------------------- -->
+<div class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat"><b>10+</b><span>regions per session</span></div>
+      <div class="stat"><b>2</b><span>OCR tiers (tiny/small)</span></div>
+      <div class="stat"><b>50</b><span>languages (small)</span></div>
+      <div class="stat"><b>$2.99</b><span>one-time</span></div>
+    </div>
   </div>
 </div>
 
----
+<!-- --------------------------- PROBLEM --------------------------- -->
+<section class="section" id="problem" aria-labelledby="problem-title">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> The problem</p>
+      <h2 id="problem-title">Copying text from screenshots is still a manual loop</h2>
+      <p class="section-lede">Built-in tools return one text blob at a time. When you need six invoice fields, four error lines, or twelve table cells, you take a dozen screenshots, paste a dozen blobs, and lose track of which text came from where.</p>
+    </div>
 
-## Privacy
+    <div class="cards">
+      <article class="card reveal">
+        <div class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-crop"/></svg></div>
+        <h3>One region at a time</h3>
+        <p>Snipping Tool and PowerToys Text Extractor return a single text blob. No numbering, no coordinates, no batch workflow.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-table"/></svg></div>
+        <h3>Retype, reformat, lose the source</h3>
+        <p>By the time the text reaches Excel or a ticket, the region number and screen coordinates are gone.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-pen"/></svg></div>
+        <h3>Beautify, and the text becomes pixels again</h3>
+        <p>Annotated images look great but stop being searchable. You can't have both visual polish and extractable text.</p>
+      </article>
+    </div>
 
-Screenshots and recognized text stay on your device. CaptureOCR does not upload image or OCR content. Settings and session files are stored locally. The only network access is the optional download of the accurate OCR model and Microsoft Store licensing. Payment is handled by Microsoft; we never see your card details.
+    <p class="center" style="margin-top:1.5rem; font-size:1.05rem; color:#374151;">CaptureOCR is the step between <strong>"I have a screenshot"</strong> and <strong>"I have usable data."</strong></p>
+  </div>
+</section>
 
----
+<!-- --------------------------- FEATURES --------------------------- -->
+<section class="section section-tight" id="features" aria-labelledby="features-title">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Features</p>
+      <h2 id="features-title">Built for work that arrives as screenshots</h2>
+      <p class="section-lede">Multi-region capture, local OCR, structured export, and annotation — all in one calm, focused desktop app.</p>
+    </div>
 
-## Frequently Asked Questions
+    <div class="features">
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-crop"/></svg>
+        <h3>Multi-region capture & auto-numbering</h3>
+        <p>Drag 10+ regions in one session. Regions are numbered ①②③ automatically. Reorder, delete, or undo before recognition.</p>
+      </article>
 
-### Is CaptureOCR free?
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-table"/></svg>
+        <h3>Structured Markdown & CSV export</h3>
+        <p>Every row carries region index, screen coordinates, confidence score, and recognized text. Paste directly into Excel, Notion, Jira, or a ticket.</p>
+      </article>
 
-No. CaptureOCR is a one-time purchase of **$2.99** on the Microsoft Store. There is no subscription. Regional pricing and any trial shown on the Store listing are set by the Store.
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg>
+        <h3>Annotate → beautify → still OCR</h3>
+        <p>Arrows, boxes, highlights, mosaic, gradient backgrounds, shadows, rounded corners. The beautified image still yields extractable text.</p>
+      </article>
 
-### Does it work offline?
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-wave"/></svg>
+        <h3>Offline PP-OCRv6 (two tiers)</h3>
+        <p>Fast mode: tiny model (~6.6 MB) bundled, ~78 ms/image. Accurate mode: small model (~30 MB, one-time download), ~258 ms/image. Both run offline via ONNX Runtime.</p>
+      </article>
 
-Yes. The tiny model ships inside the app and works fully offline right after installation. The accurate (small) model downloads once (about 30 MB) and then also runs offline. No cloud OCR API is involved.
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <h3>50 languages (small) / 49 (tiny)</h3>
+        <p>Chinese, Japanese, English, and 46 Latin-script languages. Tiny excludes Japanese — switch to Accurate mode for CJK vertical text.</p>
+      </article>
 
-### Which languages are supported?
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-export"/></svg>
+        <h3>Session package (.snipx)</h3>
+        <p>One file contains the original images, Markdown, CSV, and full JSON with normalized boxes — fully reproducible.</p>
+      </article>
 
-The small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 and excludes Japanese — switch to Accurate mode for Japanese text.
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+        <h3>Scrolling capture (best-effort)</h3>
+        <p>Row-signature stitching with sticky-header handling, adaptive wheel step, 999-frame / 512 MB cap. Works best in stable scrollers.</p>
+      </article>
 
-### How is it different from the Windows Snipping Tool or PowerToys?
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>
+        <h3>Local-first, no account</h3>
+        <p>Screenshots and recognized text never leave your device. Only the optional accurate-model download and Store licensing use the network.</p>
+      </article>
 
-The built-in tools extract one region at a time and return a plain text stream. CaptureOCR captures multiple regions in one session, numbers them, and exports a Markdown table or CSV with coordinates and confidence. It also combines annotation, beautification, and OCR in the same window, so the beautified image still yields text.
+      <article class="feature reveal">
+        <svg class="icon" aria-hidden="true"><use href="#i-type"/></svg>
+        <h3>Bilingual UI (EN / 中文)</h3>
+        <p>Interface language persists. Capture, OCR, and export all respect the selected language.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-### Does it support scrolling screenshots?
+<!-- --------------------------- VIDEO / TRAILER --------------------------- -->
+<section class="section section-dark video-band" id="video" aria-labelledby="video-title">
+  <div class="container video-layout">
+    <div class="video-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Product trailer · ~60 s</p>
+      <h2 id="video-title">See multi-region OCR in action</h2>
+      <p class="section-lede">No slides, no stock footage — just the app capturing five invoice regions, running local OCR, and exporting a Markdown table.</p>
+      <ul class="video-list">
+        <li>Capture five numbered regions in one session</li>
+        <li>Fast mode OCR runs instantly on the tiny model</li>
+        <li>Export Markdown with coordinates and confidence</li>
+        <li>Annotate and beautify without losing text extraction</li>
+      </ul>
+      <a class="btn btn-amber" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_video" target="_blank" rel="noopener">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+        Get CaptureOCR
+      </a>
+    </div>
 
-Yes, as a best-effort feature in v1.0. It works best in apps with stable scrolling; virtualized or lazy-loading lists can fail. If a scroll capture fails, use region capture instead.
+    <figure class="video-figure">
+      <div class="video-frame">
+        <video controls preload="none" playsinline
+               poster="{{ '/assets/shots/01-hero.png' | relative_url }}"
+               width="1920" height="1080"
+               aria-label="CaptureOCR product trailer">
+          <source src="{{ '/assets/videos/capture_01_1080p.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag. You can
+          <a href="{{ '/assets/videos/capture_01_1080p.mp4' | relative_url }}">download the trailer</a> instead.
+        </video>
+      </div>
+      <figcaption class="video-caption">CaptureOCR trailer — 1920 × 1080, ~60 seconds.</figcaption>
+    </figure>
+  </div>
+</section>
 
-### What happens to my screenshots?
+<!-- --------------------------- HOW IT WORKS --------------------------- -->
+<section class="section" id="how-it-works" aria-labelledby="how-title">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> How it works</p>
+      <h2 id="how-title">Three steps from screenshot to spreadsheet</h2>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <h3>Capture</h3>
+        <p>Press <kbd>Ctrl+Shift+X</kbd>, drag around each field, row, or error line. Regions are numbered ① ② ③ instantly. Reorder or delete before you recognize anything.</p>
+      </li>
+      <li class="step reveal">
+        <h3>Recognize</h3>
+        <p>Fast mode (tiny, bundled) runs offline immediately. Accurate mode (small, ~30 MB) downloads once. Both use PP-OCRv6 via ONNX Runtime on CPU.</p>
+      </li>
+      <li class="step reveal">
+        <h3>Export</h3>
+        <p>Markdown table, CSV (UTF-8 BOM for Excel), TXT, or .snipx session package. Every row has region index, coordinates, confidence, and text.</p>
+      </li>
+    </ol>
+  </div>
+</section>
 
-They stay on your device. CaptureOCR does not upload screenshot or OCR content. Settings and session files are local. The only network access is the optional accurate-model download and Microsoft Store licensing.
+<!-- --------------------------- FACTS / SPECS --------------------------- -->
+<section class="section section-tight" id="facts" aria-labelledby="facts-title">
+  <div class="container facts-layout">
+    <div>
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Quick facts</p>
+      <h2 id="facts-title">CaptureOCR at a glance</h2>
+      <p class="section-lede">The short version, for evaluators, reviewers, and AI assistants that need the essentials in one place.</p>
 
----
+      <ul class="chips" aria-label="Supported formats">
+        <li>Windows 10/11 x64</li><li>Signed MSIX</li><li>PP-OCRv6</li><li>ONNX Runtime</li><li>Markdown / CSV / .snipx</li>
+      </ul>
 
-## Stop retyping screenshots
+      <div class="callout">
+        <strong>Offline note:</strong> The tiny model is bundled and works fully offline. The accurate model downloads once (~30 MB) and then also runs offline. No cloud OCR API is involved at any point.
+      </div>
+    </div>
 
-<p class="cta"><a class="btn" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_footer" target="_blank" rel="noopener">Get CaptureOCR — $2.99</a></p>
+    <div>
+      <table class="facts-table">
+        <caption>Product facts</caption>
+        <tbody>
+          <tr><th scope="row">App name</th><td>CaptureOCR</td></tr>
+          <tr><th scope="row">Version</th><td>1.0.0.0</td></tr>
+          <tr><th scope="row">Platform</th><td>Windows 10 (1809+) & Windows 11, x64</td></tr>
+          <tr><th scope="row">Distribution</th><td>Signed MSIX package, Microsoft Store</td></tr>
+          <tr><th scope="row">Pricing</th><td>$2.99 one-time purchase; regional pricing set by the Store</td></tr>
+          <tr><th scope="row">OCR engine</th><td>PP-OCRv6 (tiny / small) via ONNX Runtime</td></tr>
+          <tr><th scope="row">Fast mode</th><td>~6.6 MB, ~78 ms/img (tiny), 49 languages, no Japanese</td></tr>
+          <tr><th scope="row">Accurate mode</th><td>~30 MB, ~258 ms/img (small), 50 languages, includes Japanese</td></tr>
+          <tr><th scope="row">Languages</th><td>Chinese, English, Japanese, 46 Latin-script languages</td></tr>
+          <tr><th scope="row">Export formats</th><td>Markdown table, CSV (UTF-8 BOM), TXT, .snipx session package</td></tr>
+          <tr><th scope="row">Export fields</th><td>Region index, coordinates (x,y,w,h), line index, confidence, text, mode, elapsed_ms, model_hash</td></tr>
+          <tr><th scope="row">Max regions</th><td>Tested 10+ per session</td></tr>
+          <tr><th scope="row">Scrolling capture</th><td>Best-effort v1.0 (row-signature, 32 buckets, sticky-header skips)</td></tr>
+          <tr><th scope="row">Install size</th><td>~126 MB (tiny bundled)</td></tr>
+          <tr><th scope="row">Internet</th><td>Optional (accurate model download, Store license)</td></tr>
+          <tr><th scope="row">Accounts</th><td>None required</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
 
-<p class="footer-meta">Last updated: 27 October 2026 · <a href="https://github.com/lijiannan1241/CaptureOCR">GitHub</a> · <a href="https://github.com/lijiannan1241/CaptureOCR/issues">Support</a> · <a href="mailto:cdljn2022@gmail.com">Email</a> · <a href="#privacy">Privacy</a></p>
+<!-- --------------------------- FAQ --------------------------- -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> FAQ</p>
+      <h2 id="faq-title">Questions evaluators ask</h2>
+      <p class="section-lede">Short, direct answers. If yours is missing, the <a href="https://github.com/lijiannan1241/CaptureOCR/issues">issue tracker</a> has more.</p>
+    </div>
 
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary>Is CaptureOCR free?</summary>
+        <div class="faq-answer">
+          <p>No. CaptureOCR is a one-time purchase of <strong>$2.99</strong> on the Microsoft Store. There is no subscription. Regional pricing and any trial shown on the Store listing are set by the Store.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does it work offline?</summary>
+        <div class="faq-answer">
+          <p>Yes. The tiny model ships inside the MSIX package and works fully offline right after installation. The accurate (small) model downloads once (about 30 MB) and then also runs offline. No cloud OCR API is involved.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Which languages are supported?</summary>
+        <div class="faq-answer">
+          <p>The small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 and excludes Japanese — switch to Accurate mode for Japanese text.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How is it different from Windows Snipping Tool or PowerToys?</summary>
+        <div class="faq-answer">
+          <p>The built-in tools extract one region at a time and return a plain text stream. CaptureOCR captures multiple regions in one session, numbers them, and exports a Markdown table or CSV with coordinates and confidence. It also combines annotation, beautification, and OCR in the same window, so the beautified image still yields text.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does it support scrolling screenshots?</summary>
+        <div class="faq-answer">
+          <p>Yes, as a best-effort feature in v1.0. It uses row-signature stitching (32 buckets) with sticky-header skips and adaptive wheel step. Works best in apps with stable scrolling; virtualized or lazy-loading lists can fail. Region capture is the reliable fallback.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What happens to my screenshots?</summary>
+        <div class="faq-answer">
+          <p>They stay on your device. CaptureOCR does not upload screenshot or OCR content. Settings and session files are local. The only network access is the optional accurate-model download and Microsoft Store licensing. Payment is handled by Microsoft; we never see your card details.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What export formats are available?</summary>
+        <div class="faq-answer">
+          <p><strong>Markdown table</strong> (region index, coordinates, line, confidence, text), <strong>CSV</strong> with UTF-8 BOM (session_id, index, x,y,w,h, line_index, confidence, text, mode, elapsed_ms, model_hash), <strong>TXT</strong> (plain text blocks), and <strong>.snipx session package</strong> (ZIP with original images, Markdown, CSV, and full JSON including normalized boxes).</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I use it for table extraction?</summary>
+        <div class="faq-answer">
+          <p>Not directly. CaptureOCR exports <em>line-level rows</em>, not cell-level table reconstruction. A captured table becomes text lines with region coordinates. Cell merging and column inference require layout analysis — a separate problem. Many users pivot the CSV in Excel for table work.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- --------------------------- CTA BAND --------------------------- -->
+<section class="cta-band" aria-labelledby="cta-title">
+  <div class="container">
+    <h2 id="cta-title">Stop retyping screenshots</h2>
+    <p>Install CaptureOCR on Windows, capture the fields you need in one session, and export a clean table.</p>
+    <div class="cta-actions">
+      <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_cta" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+        <svg class="store-badge-icon" aria-hidden="true"><use href="#i-store"/></svg>
+        <span class="store-badge-text">
+          <span class="store-badge-kicker">Get it from</span>
+          <span class="store-badge-name">Microsoft Store</span>
+        </span>
+      </a>
+      <a class="btn btn-ghost-light" href="https://github.com/lijiannan1241/CaptureOCR/issues">
+        View support issues
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+    </div>
+    <p class="cta-note">Windows 10 & 11 · x64 · $2.99 once · No subscription</p>
+  </div>
+</section>
+
+<!-- =========================== JSON-LD =========================== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "CaptureOCR",
-  "url": "https://lijiannan1241.github.io/CaptureOCR/",
-  "inLanguage": "en",
-  "description": "CaptureOCR turns Windows screenshots into structured text: multi-region capture, offline PP-OCRv6 OCR, and Markdown or CSV export."
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "@id": "https://lijiannan1241.github.io/CaptureOCR/#software",
-  "name": "CaptureOCR",
-  "alternateName": ["SnipOCR"],
-  "description": "CaptureOCR is a Windows screenshot OCR workflow: capture multiple regions in one pass, annotate and beautify them, recognize Chinese, English, and mixed text locally with PP-OCRv6, and export a numbered Markdown table or CSV with coordinates and confidence.",
-  "applicationCategory": "UtilitiesApplication",
-  "applicationSubCategory": "OCR software",
-  "operatingSystem": "Windows 10, Windows 11",
-  "softwareVersion": "1.0.0.0",
-  "datePublished": "2026-10-21",
-  "dateModified": "2026-10-27",
-  "inLanguage": "en",
-  "url": "https://lijiannan1241.github.io/CaptureOCR/",
-  "downloadUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
-  "sameAs": [
-    "https://github.com/lijiannan1241/CaptureOCR",
-    "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1"
-  ],
-  "screenshot": [
-    "https://lijiannan1241.github.io/CaptureOCR/assets/shots/01-hero.png",
-    "https://lijiannan1241.github.io/CaptureOCR/assets/shots/02-regions.png",
-    "https://lijiannan1241.github.io/CaptureOCR/assets/shots/03-export.png",
-    "https://lijiannan1241.github.io/CaptureOCR/assets/shots/04-annotate-beautify.png"
-  ],
-  "offers": {
-    "@type": "Offer",
-    "price": "2.99",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock",
-    "url": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1"
-  },
-  "featureList": [
-    "Multi-region screenshot capture with automatic numbering",
-    "Offline PP-OCRv6 OCR for Chinese, English, and mixed CJK text",
-    "Markdown table and CSV export with coordinates and confidence",
-    "Annotation, beautification, and OCR in one window",
-    "Bilingual English and Simplified Chinese UI",
-    "One-time purchase with no subscription"
-  ],
-  "fileSize": "126MB",
-  "processorRequirements": "x64 CPU"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Is CaptureOCR free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CaptureOCR is a one-time purchase of $2.99 on the Microsoft Store. There is no subscription. Regional pricing and any trial shown on the Store listing are set by the Store."
+      "@type": "WebSite",
+      "@id": "https://lijiannan1241.github.io/CaptureOCR/#website",
+      "url": "https://lijiannan1241.github.io/CaptureOCR/",
+      "name": "CaptureOCR",
+      "description": "CaptureOCR turns Windows screenshots into structured text: multi-region capture, offline PP-OCRv6 OCR, and Markdown or CSV export.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://lijiannan1241.github.io/CaptureOCR/#publisher" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lijiannan1241.github.io/CaptureOCR/#publisher",
+      "name": "nannan2008",
+      "url": "https://lijiannan1241.github.io/CaptureOCR/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://lijiannan1241.github.io/CaptureOCR/assets/og-cover.png",
+        "width": 1200,
+        "height": 630
       }
     },
     {
-      "@type": "Question",
-      "name": "Does it work offline?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The tiny model ships inside the app and works fully offline right after installation. The accurate (small) model downloads once (about 30 MB) and then also runs offline. No cloud OCR API is involved."
-      }
+      "@type": "SoftwareApplication",
+      "@id": "https://lijiannan1241.github.io/CaptureOCR/#app",
+      "name": "CaptureOCR",
+      "alternateName": ["SnipOCR"],
+      "applicationCategory": "UtilitiesApplication",
+      "applicationSubCategory": "OCR software",
+      "operatingSystem": "Windows 10, Windows 11",
+      "softwareVersion": "1.0.0.0",
+      "url": "https://lijiannan1241.github.io/CaptureOCR/",
+      "downloadUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
+      "installUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
+      "inLanguage": ["en", "zh-Hans"],
+      "description": "CaptureOCR is a Windows screenshot OCR workflow: capture multiple regions in one pass, annotate and beautify them, recognize Chinese, English, and mixed text locally with PP-OCRv6, and export a numbered Markdown table or CSV with coordinates and confidence.",
+      "featureList": [
+        "Multi-region screenshot capture with automatic numbering",
+        "Offline PP-OCRv6 OCR for Chinese, English, and mixed CJK text",
+        "Markdown table and CSV export with coordinates and confidence",
+        "Annotation, beautification, and OCR in one window",
+        "Bilingual English and Simplified Chinese UI",
+        "One-time purchase with no subscription"
+      ],
+      "screenshot": [
+        "https://lijiannan1241.github.io/CaptureOCR/assets/shots/01-hero.png",
+        "https://lijiannan1241.github.io/CaptureOCR/assets/shots/02-regions.png",
+        "https://lijiannan1241.github.io/CaptureOCR/assets/shots/03-export.png",
+        "https://lijiannan1241.github.io/CaptureOCR/assets/shots/04-annotate-beautify.png"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "2.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1"
+      },
+      "publisher": { "@id": "https://lijiannan1241.github.io/CaptureOCR/#publisher" },
+      "datePublished": "2026-10-21",
+      "dateModified": "2026-10-27",
+      "fileSize": "126MB",
+      "processorRequirements": "x64 CPU"
     },
     {
-      "@type": "Question",
-      "name": "Which languages are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 and excludes Japanese — switch to Accurate mode for Japanese text."
-      }
+      "@type": "VideoObject",
+      "@id": "https://lijiannan1241.github.io/CaptureOCR/#trailer",
+      "name": "CaptureOCR — product trailer",
+      "description": "A ~60-second walkthrough of CaptureOCR: capture five invoice regions, run local OCR with PP-OCRv6, and export a Markdown table with coordinates and confidence.",
+      "thumbnailUrl": "https://lijiannan1241.github.io/CaptureOCR/assets/shots/01-hero.png",
+      "contentUrl": "https://lijiannan1241.github.io/CaptureOCR/assets/videos/capture_01_1080p.mp4",
+      "uploadDate": "2026-10-27",
+      "duration": "PT1M",
+      "inLanguage": "en",
+      "isFamilyFriendly": true,
+      "publisher": { "@id": "https://lijiannan1241.github.io/CaptureOCR/#publisher" }
     },
     {
-      "@type": "Question",
-      "name": "How is it different from the Windows Snipping Tool or PowerToys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The built-in tools extract one region at a time and return a plain text stream. CaptureOCR captures multiple regions in one session, numbers them, and exports a Markdown table or CSV with coordinates and confidence. It also combines annotation, beautification, and OCR in the same window, so the beautified image still yields text."
-      }
+      "@type": "BreadcrumbList",
+      "@id": "https://lijiannan1241.github.io/CaptureOCR/#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lijiannan1241.github.io/CaptureOCR/" },
+        { "@type": "ListItem", "position": 2, "name": "CaptureOCR" }
+      ]
     },
     {
-      "@type": "Question",
-      "name": "Does it support scrolling screenshots?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, as a best-effort feature in v1.0. It works best in apps with stable scrolling; virtualized or lazy-loading lists can fail. If a scroll capture fails, use region capture instead."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens to my screenshots?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They stay on your device. CaptureOCR does not upload screenshot or OCR content. Settings and session files are local. The only network access is the optional accurate-model download and Microsoft Store licensing."
-      }
+      "@type": "FAQPage",
+      "@id": "https://lijiannan1241.github.io/CaptureOCR/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is CaptureOCR free?", "acceptedAnswer": { "@type": "Answer", "text": "No. CaptureOCR is a one-time purchase of $2.99 on the Microsoft Store. There is no subscription. Regional pricing and any trial shown on the Store listing are set by the Store." } },
+        { "@type": "Question", "name": "Does CaptureOCR work offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The tiny model ships inside the MSIX package and works fully offline right after installation. The accurate (small) model downloads once (about 30 MB) and then also runs offline. No cloud OCR API is involved." } },
+        { "@type": "Question", "name": "Which languages does CaptureOCR support?", "acceptedAnswer": { "@type": "Answer", "text": "The small tier covers 50 languages, including Chinese, Japanese, English, and 46 Latin-script languages. The tiny tier covers 49 and excludes Japanese — switch to Accurate mode for Japanese text." } },
+        { "@type": "Question", "name": "How is CaptureOCR different from Windows Snipping Tool?", "acceptedAnswer": { "@type": "Answer", "text": "The built-in tools extract one region at a time and return a plain text stream. CaptureOCR captures multiple regions in one session, numbers them, and exports a Markdown table or CSV with coordinates and confidence. It also combines annotation, beautification, and OCR in the same window, so the beautified image still yields text." } },
+        { "@type": "Question", "name": "Does CaptureOCR support scrolling screenshots?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, as a best-effort feature in v1.0. It uses row-signature stitching (32 buckets) with sticky-header skips and adaptive wheel step. Works best in apps with stable scrolling; virtualized or lazy-loading lists can fail. Region capture is the reliable fallback." } },
+        { "@type": "Question", "name": "What happens to my screenshots?", "acceptedAnswer": { "@type": "Answer", "text": "They stay on your device. CaptureOCR does not upload screenshot or OCR content. Settings and session files are local. The only network access is the optional accurate-model download and Microsoft Store licensing. Payment is handled by Microsoft; we never see your card details." } },
+        { "@type": "Question", "name": "What export formats does CaptureOCR support?", "acceptedAnswer": { "@type": "Answer", "text": "Markdown table, CSV with UTF-8 BOM, TXT, and .snipx session package (ZIP with images, Markdown, CSV, and full JSON including normalized boxes)." } },
+        { "@type": "Question", "name": "Can CaptureOCR extract tables?", "acceptedAnswer": { "@type": "Answer", "text": "Not directly. It exports line-level rows with region coordinates, not cell-level table reconstruction. Many users pivot the CSV in Excel for table work." } }
+      ]
     }
   ]
 }
 </script>
+
+</main>
+
+<!-- =========================== FOOTER =========================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="presentation">
+              <rect x="2" y="4" width="10" height="10" rx="2" fill="#2563eb"/>
+              <rect x="14" y="4" width="8" height="10" rx="2" fill="#2563eb"/>
+              <rect x="2" y="16" width="10" height="6" rx="2" fill="#2563eb"/>
+              <rect x="14" y="16" width="8" height="6" rx="2" fill="#2563eb"/>
+              <path d="M4 6h6M4 9h4M15 5h5M15 8h3M15 17h5M15 20h3" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+            </svg>
+          </span>
+          CaptureOCR
+        </a>
+        <p>Windows screenshot OCR workflow: capture multiple regions, annotate, and export structured Markdown/CSV with offline PP-OCRv6.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Product</h3>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#video">Trailer</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_footer" rel="noopener" target="_blank">Microsoft Store</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://github.com/lijiannan1241/CaptureOCR">GitHub</a></li>
+          <li><a href="https://github.com/lijiannan1241/CaptureOCR/issues">Support</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS / Atom</a></li>
+          <li><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></li>
+          <li><a href="{{ '/zh/' | relative_url }}" hreflang="zh-Hans" lang="zh-Hans">中文页面</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 nannan2008. CaptureOCR version 1.0.0.0.</p>
+      <p>Independent app. Microsoft, Windows and Microsoft Store are trademarks of Microsoft Corporation. PP-OCRv6 models are Apache-2.0 licensed.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- External JS (for mobile nav toggle, scroll reveal, etc.) -->
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
