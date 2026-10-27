@@ -44,6 +44,29 @@ last_modified_at: 2026-10-27
   <p class="cta"><a class="btn" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero" target="_blank" rel="noopener">Get CaptureOCR — $2.99</a> <a class="btn ghost" href="#how-it-works">See how it works</a></p>
   <p class="meta">Windows 10/11 x64 · 126 MB · v1.0.0 · One-time purchase</p>
 
+  <!-- Microsoft Store Badge -->
+  <p class="cta" style="margin-top: 0.5rem;">
+    <a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero_badge" target="_blank" rel="noopener" aria-label="Get CaptureOCR from Microsoft Store">
+      <img src="{{ '/assets/ms-store-badge-en.png' | relative_url }}" alt="Get CaptureOCR from Microsoft Store" width="180" style="height:auto; border:0; border-radius:4px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    </a>
+  </p>
+
+  <!-- Trust indicators -->
+  <p class="meta" style="margin-top: 1rem; display:flex; align-items:center; gap:1rem; flex-wrap:wrap; justify-content:center; font-size:0.85rem;">
+    <span style="display:flex; align-items:center; gap:0.4rem; color:#107c10;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L3.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>
+      Verified on Microsoft Store
+    </span>
+    <span style="display:flex; align-items:center; gap:0.4rem; color:#0078d4;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0 1A9 9 0 1 0 8 1a9 9 0 0 0 0 16Z"/><path fill="#FFF" d="M11.5 5.5H9V11h2.5V5.5ZM6.5 5.5H4v5.5h2.5V5.5Z"/></svg>
+      Windows 10/11 compatible
+    </span>
+    <span style="display:flex; align-items:center; gap:0.4rem; color:#6b7280;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm3.5 6.5a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1 0-1.5h7a.75.75 0 0 1 .75.75Z"/></svg>
+      Offline • No account • No subscription
+    </span>
+  </p>
+
   <figure>
     <img src="{{ '/assets/shots/01-hero.png' | relative_url }}"
          alt="CaptureOCR window with five numbered regions on a vendor invoice next to an exported Markdown table with coordinates and confidence."
@@ -184,6 +207,35 @@ CaptureOCR is the step between "I have a screenshot" and "I have usable data."
 **$2.99 once.** No subscription, no account, no per-page OCR fee. Regional pricing and any trial shown on the Microsoft Store listing are set by the Store.
 
 <p class="cta"><a class="btn" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_body" target="_blank" rel="noopener">Get CaptureOCR on the Microsoft Store</a></p>
+
+---
+
+## Available on Microsoft Store
+
+<div style="text-align:center; margin:1.5rem 0;">
+  <a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_store_section" target="_blank" rel="noopener" aria-label="Get CaptureOCR from Microsoft Store">
+    <img src="{{ '/assets/ms-store-badge-en.png' | relative_url }}" alt="Get CaptureOCR from Microsoft Store" width="220" style="height:auto; border:0; border-radius:6px; box-shadow:0 4px 16px rgba(0,0,0,0.1); transition:transform 0.2s;">
+  </a>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem; margin:1.5rem 0; padding:1rem; background:#f8fafc; border-radius:10px; border:1px solid #e5e7eb;">
+  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#107c10;">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M17.22 5.28a.75.75 0 0 1 0 1.06l-9 9a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06L8 14.19l8.16-8.15a.75.75 0 0 1 1.06 0Z"/></svg>
+    <span>Verified publisher on Microsoft Store</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#0078d4;">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M10 20A10 10 0 1 0 10 0a10 10 0 0 0 0 20Zm0 1A11 11 0 1 0 10 1a11 11 0 0 0 0 20Z"/><path fill="#FFF" d="M14.5 7H11V17.5h3.5V7ZM9.5 7H5.5v5.5h4V7Z"/></svg>
+    <span>Windows 10/11 certified</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#6b7280;">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M10 3.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm4.5 6.5a.75.75 0 0 1-.75.75h-11a.75.75 0 0 1 0-1.5h11a.75.75 0 0 1 .75.75Z"/></svg>
+    <span>Secure payment via Microsoft</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:#6b7280;">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="flex-shrink:0;"><path d="M10 3.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm-3.5 5a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Z"/></svg>
+    <span>One-time purchase, no subscription</span>
+  </div>
+</div>
 
 ---
 
