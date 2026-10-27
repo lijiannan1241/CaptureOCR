@@ -205,7 +205,13 @@ pip install --no-deps rapidocr
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_tech_setup" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/posts/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison/)
-- [Offline OCR Tool That Works on Windows Without Internet](/CaptureOCR/blog/posts/offline-ocr-tool-windows-no-internet/)
-- [Best Offline OCR for Chinese Invoices on Windows 11](/CaptureOCR/blog/posts/offline-ocr-chinese-invoices-windows-11/)
+- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison)
+- [Offline OCR Tool That Works on Windows Without Internet](/CaptureOCR/blog/offline-ocr-tool-windows-no-internet)
+- [Best Offline OCR for Chinese Invoices on Windows 11](/CaptureOCR/blog/offline-ocr-chinese-invoices-windows-11)

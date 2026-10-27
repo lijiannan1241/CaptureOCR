@@ -144,7 +144,13 @@ Low-confidence rows (under 0.90) often need review. In your editor, search for `
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_markdown_table" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/posts/extract-text-multiple-screenshots-windows/)
-- [Export Screenshot OCR to CSV with Coordinates](/CaptureOCR/blog/posts/export-screenshot-ocr-to-csv-coordinates/)
-- [Batch OCR Multiple Regions Single Session Windows](/CaptureOCR/blog/posts/batch-ocr-multiple-regions-single-session-windows/)
+- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/extract-text-multiple-screenshots-windows)
+- [Export Screenshot OCR to CSV with Coordinates](/CaptureOCR/blog/export-screenshot-ocr-to-csv-coordinates)
+- [Batch OCR Multiple Regions Single Session Windows](/CaptureOCR/blog/batch-ocr-multiple-regions-single-session-windows)

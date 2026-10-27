@@ -125,7 +125,13 @@ The 30 MB download happens once. After that, it's just as offline as Fast mode.
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_chinese_invoice" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/posts/extract-text-multiple-screenshots-windows/)
-- [How to Export Screenshot OCR to CSV with Coordinates](/CaptureOCR/blog/posts/export-screenshot-to-csv-coordinates-confidence/)
-- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/posts/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison/)
+- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/extract-text-multiple-screenshots-windows)
+- [How to Export Screenshot OCR to CSV with Coordinates](/CaptureOCR/blog/export-screenshot-ocr-to-csv-coordinates)
+- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison)

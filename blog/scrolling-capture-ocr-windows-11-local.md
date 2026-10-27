@@ -176,7 +176,13 @@ No cloud, no subscription, works offline.
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_scrolling_w11" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/posts/extract-text-multiple-screenshots-windows/)
-- [Batch OCR Multiple Regions Single Session Windows](/CaptureOCR/blog/posts/batch-ocr-multiple-regions-single-session-windows/)
-- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/posts/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison/)
+- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/extract-text-multiple-screenshots-windows)
+- [Batch OCR Multiple Regions Single Session Windows](/CaptureOCR/blog/batch-ocr-multiple-regions-single-session-windows)
+- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison)

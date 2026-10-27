@@ -206,7 +206,13 @@ Export `.snipx` → unzip → `session.json` contains normalized boxes (0–1 re
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_csv_export" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [How to Convert Screenshot to Markdown Table on Windows](/CaptureOCR/blog/posts/convert-screenshot-to-markdown-table-windows/)
-- [Batch OCR Multiple Regions Single Session Windows](/CaptureOCR/blog/posts/batch-ocr-multiple-regions-single-session-windows/)
-- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/posts/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison/)
+- [How to Convert Screenshot to Markdown Table on Windows](/CaptureOCR/blog/convert-screenshot-to-markdown-table-windows)
+- [Batch OCR Multiple Regions Single Session Windows](/CaptureOCR/blog/batch-ocr-multiple-regions-single-session-windows)
+- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison)

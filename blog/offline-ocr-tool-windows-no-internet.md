@@ -137,7 +137,13 @@ After that: fully offline. Air-gapped machine? Install Store version on connecte
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_offline_ocr" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [Best Offline OCR for Chinese Invoices on Windows 11](/CaptureOCR/blog/posts/offline-ocr-chinese-invoices-windows-11/)
-- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/posts/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison/)
-- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/posts/extract-text-multiple-screenshots-windows/)
+- [Best Offline OCR for Chinese Invoices on Windows 11](/CaptureOCR/blog/offline-ocr-chinese-invoices-windows-11)
+- [PP-OCRv6 vs Windows Snipping Tool OCR Comparison](/CaptureOCR/blog/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison)
+- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/extract-text-multiple-screenshots-windows)

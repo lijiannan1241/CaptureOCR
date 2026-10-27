@@ -187,7 +187,13 @@ Share `.snipx` with colleague → they open in CaptureOCR → full session resto
 
 ---
 
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_batch_ocr_alt" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
+---
+
 **Related reads:**
-- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/posts/extract-text-multiple-screenshots-windows/)
-- [Extract Error Messages from Screenshots: Support Workflow](/CaptureOCR/blog/posts/extract-error-messages-from-screenshot-windows/)
-- [Export Screenshot OCR to CSV with Coordinates](/CaptureOCR/blog/posts/export-screenshot-ocr-to-csv-coordinates/)
+- [How to Extract Text from Multiple Screenshots at Once](/CaptureOCR/blog/extract-text-multiple-screenshots-windows)
+- [Extract Error Messages from Screenshots: Support Workflow](/CaptureOCR/blog/extract-error-messages-from-screenshot-windows)
+- [Export Screenshot OCR to CSV with Coordinates](/CaptureOCR/blog/export-screenshot-ocr-to-csv-coordinates)
