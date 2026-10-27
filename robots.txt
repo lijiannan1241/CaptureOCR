@@ -1,15 +1,12 @@
-User-agent: GPTBot
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Bytespider
-Allow: /
-User-agent: Google-Extended
-Allow: /
-
+# Robots.txt for CaptureOCR
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://lijiannan1241.github.io/CaptureOCR/sitemap.xml
+
+# Host
+Host: https://lijiannan1241.github.io
+
+# Crawl-delay (optional, polite)
+Crawl-delay: 10

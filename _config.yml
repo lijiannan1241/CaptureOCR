@@ -1,6 +1,6 @@
 # Site
 title: "CaptureOCR"
-description: "Offline CJK OCR for Windows: batch 10+ regions, export Markdown/CSV with coordinates and confidence. $2.99 one-time on Microsoft Store."
+description: "CaptureOCR turns Windows screenshots into structured text: capture multiple regions, annotate them, and export Markdown or CSV with offline PP-OCRv6 OCR for Chinese, English, and mixed layouts."
 url: "https://lijiannan1241.github.io"
 baseurl: "/CaptureOCR"
 
@@ -13,29 +13,26 @@ author:
 # Theme
 theme: minima
 
-# Plugins — 不要设置 safe: true，GitHub Pages 线上构建本身即强制安全模式
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
 
-# 如果没有 Twitter/X 账号，整块注释掉；否则填入 username
-# twitter:
-#   card: summary_large_image
-#   username: your_handle
+# Twitter/X card
+twitter:
+  card: summary_large_image
 
 # Default OG image
-image: "/og-image.png"
+image: "/assets/og-cover.png"
 
-# Search engine verification（注册后取消注释并填入 token）
+# Search engine verification (uncomment and fill after registering)
 # google_site_verification: "your-token"
 # bing_site_verification: "your-token"
 
 github_username: lijiannan1241
 
 show_downloads: false
-
-# 删除 defaults 块：让每个页面在 front matter 中自行声明 layout，避免未来子页面布局被强制覆盖
 
 exclude:
   - README.md
@@ -47,7 +44,8 @@ exclude:
   - "*.gemspec"
   - llms.txt
 
-# header_pages: 等 privacy.md / changelog.md 实际存在后再取消注释
+# Header pages (uncomment when privacy.md / changelog.md exist)
 # header_pages:
+#   - index.md
 #   - privacy.md
 #   - changelog.md
