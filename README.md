@@ -12,8 +12,8 @@ last_modified_at: 2026-10-27
 
 Capture multiple regions in one pass, annotate them, and export a numbered Markdown table or CSV. PP-OCRv6 runs locally — Chinese, English, and mixed layouts. No account. No upload. $2.99 once.
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS&hl=en-US&gl=HK">
-  <img src="ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 
 [Website](https://lijiannan1241.github.io/CaptureOCR/) · [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) · [FAQ](https://lijiannan1241.github.io/CaptureOCR/#frequently-asked-questions) · [Issues](https://github.com/lijiannan1241/CaptureOCR/issues)
