@@ -24,6 +24,7 @@ collections:
   blog:
     output: true
     permalink: /blog/:title
+    # Ensure collection documents are output as pages
 
 # Defaults for collections
 defaults:
