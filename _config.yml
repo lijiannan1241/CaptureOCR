@@ -23,7 +23,7 @@ plugins:
 collections:
   blog:
     output: true
-    permalink: /blog/:title/
+    permalink: /blog/:title
 
 # Defaults for collections
 defaults:
