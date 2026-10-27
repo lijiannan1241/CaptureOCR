@@ -24,6 +24,7 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
+    dir: blog/posts
 
 # Defaults for collections
 defaults:
