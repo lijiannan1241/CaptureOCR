@@ -19,12 +19,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Collections
-collections:
-  blog:
-    output: true
-    permalink: /blog/:title
-    # Ensure collection documents are output as pages
+# Collections (disabled - using regular pages in blog/ directory instead)
+# collections:
+#   blog:
+#     output: true
+#     permalink: /blog/:title
 
 # Defaults for collections
 defaults:
