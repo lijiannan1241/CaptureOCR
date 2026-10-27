@@ -34,6 +34,33 @@ Every row carries screen coordinates, line numbers, confidence scores, OCR mode,
 ### [Annotate Screenshot and Still Extract Text on Windows](/CaptureOCR/blog/posts/annotate-screenshot-still-extract-text-windows/)
 Add arrows, highlights, mosaic, gradient backgrounds — the beautified image still yields extractable text. OCR runs on originals, annotation on canvas.
 
+### [Capture Multiple Screen Regions at Once with Windows Hotkey](/CaptureOCR/blog/posts/capture-multiple-screen-regions-hotkey/)
+Stop the capture-OCR-copy loop. Press Ctrl+Shift+X, drag 10+ regions, auto-numbered ①②③. Batch OCR and export structured data in one session.
+
+### [Offline OCR Tool for Chinese Invoices on Windows 11](/CaptureOCR/blog/posts/offline-ocr-chinese-invoices-windows-11/)
+Process Chinese invoices locally with PP-OCRv6. Extract vendor, date, line items, totals to CSV. No cloud, no subscription.
+
+### [Offline Screenshot OCR Tool That Exports Markdown Tables](/CaptureOCR/blog/posts/offline-screenshot-ocr-markdown-table-export/)
+Turn screenshot regions into clean Markdown tables with coordinates and confidence. No manual formatting. Works offline.
+
+### [How to Capture Scrolling Screenshots on Windows Without Cloud OCR](/CaptureOCR/blog/posts/scrolling-screenshot-windows-no-cloud-ocr/)
+Learn how to capture full-page scrolling screenshots locally on Windows. Row-signature stitching, tiled OCR, no cloud upload.
+
+### [Export OCR Results to Excel CSV with Confidence Scores](/CaptureOCR/blog/posts/export-ocr-results-to-excel-csv-confidence/)
+Every row carries screen coordinates, line numbers, confidence scores, OCR mode, processing time, and model hash. Ready for Excel, Python.
+
+### [Extract Text from Error Dialog Boxes on Windows](/CaptureOCR/blog/posts/extract-text-error-dialog-boxes-windows/)
+Turn error dialogs, stack traces, and log lines into structured tickets. Export Markdown/CSV with coordinates for Jira, GitHub.
+
+### [PP-OCRv6 Windows ONNX Runtime Setup: Local OCR Without Python](/CaptureOCR/blog/posts/pp-ocrv6-windows-onnx-runtime-setup/)
+How CaptureOCR bundles PP-OCRv6 with ONNX Runtime for zero-dependency local OCR. Model management, tiling, performance tuning.
+
+### [Scrolling Capture OCR on Windows 11: Local Processing, No Cloud](/CaptureOCR/blog/posts/scrolling-capture-ocr-windows-11-local/)
+Capture full-page scrolling screenshots and run OCR locally on Windows 11. Row-signature stitching, tiled PP-OCRv6, no cloud.
+
+### [Windows Snipping Tool Alternative for Batch OCR Multiple Regions](/CaptureOCR/blog/posts/snipping-tool-alternative-batch-ocr-multiple-regions/)
+Capture 10+ regions in one session, batch recognize, export structured data. No more capture-OCR-copy cycles.
+
 ---
 
 ## Comparisons & Deep Dives
@@ -63,6 +90,16 @@ Compare ShareX + CaptureOCR vs built-in scrolling. Row-signature stitching (32 b
 | "Chinese text problems" | [Best Chinese OCR tool](/CaptureOCR/blog/posts/best-screenshot-ocr-tool-chinese-text-windows/) |
 | "Is it better than Windows OCR?" | [PP-OCRv6 vs Windows comparison](/CaptureOCR/blog/posts/pp-ocrv6-vs-windows-snipping-tool-ocr-comparison/) |
 | "Long page scrolling OCR" | [Scrolling screenshot OCR](/CaptureOCR/blog/posts/scrolling-screenshot-ocr-windows-free-alternative/) |
+| "Chinese invoice OCR offline" | [Chinese invoice OCR](/CaptureOCR/blog/posts/offline-ocr-chinese-invoices-windows-11/) |
+| "Markdown table export" | [Markdown table export](/CaptureOCR/blog/posts/offline-screenshot-ocr-markdown-table-export/) |
+| "Scrolling OCR no cloud" | [Scrolling no cloud](/CaptureOCR/blog/posts/scrolling-screenshot-windows-no-cloud-ocr/) |
+| "Hotkey multi-region capture" | [Hotkey multi-region](/CaptureOCR/blog/posts/capture-multiple-screen-regions-hotkey/) |
+| "Offline OCR no internet" | [Offline no internet](/CaptureOCR/blog/posts/offline-ocr-tool-windows-no-internet/) |
+| "Error dialog OCR" | [Error dialog OCR](/CaptureOCR/blog/posts/extract-text-error-dialog-boxes-windows/) |
+| "PP-OCRv6 ONNX setup" | [PP-OCRv6 ONNX setup](/CaptureOCR/blog/posts/pp-ocrv6-windows-onnx-runtime-setup/) |
+| "CSV with confidence scores" | [CSV confidence scores](/CaptureOCR/blog/posts/export-ocr-results-to-excel-csv-confidence/) |
+| "Windows 11 scrolling local" | [Windows 11 scrolling local](/CaptureOCR/blog/posts/scrolling-capture-ocr-windows-11-local/) |
+| "Batch OCR Snipping Tool alt" | [Snipping Tool alt batch OCR](/CaptureOCR/blog/posts/snipping-tool-alternative-batch-ocr-multiple-regions/) |
 
 ---
 
@@ -75,4 +112,4 @@ Compare ShareX + CaptureOCR vs built-in scrolling. Row-signature stitching (32 b
 
 ---
 
-*Last updated: October 2026 · CaptureOCR v1.0.0.0*
+*Last updated: November 2026 · CaptureOCR v1.0.0.0*
