@@ -101,6 +101,7 @@ last_modified_at: 2026-10-27
         <a href="#video">预告片</a>
         <a href="#how-it-works">如何使用</a>
         <a href="#faq">常见问题</a>
+        <a href="/CaptureOCR/blog/">博客</a>
         <span class="lang-switch" aria-label="语言">
           <a href="/CaptureOCR/" hreflang="en" lang="en">EN</a>
           <a href="/CaptureOCR/zh/" aria-current="page" hreflang="zh-Hans" lang="zh-Hans">中文</a>

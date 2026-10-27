@@ -101,6 +101,7 @@ last_modified_at: 2026-10-27
         <a href="#video">Trailer</a>
         <a href="#how-it-works">How it works</a>
         <a href="#faq">FAQ</a>
+        <a href="/CaptureOCR/blog/">Blog</a>
         <span class="lang-switch" aria-label="Language">
           <a href="/CaptureOCR/" aria-current="page" hreflang="en" lang="en">EN</a>
           <a href="/CaptureOCR/zh/" hreflang="zh-Hans" lang="zh-Hans">中文</a>

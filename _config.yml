@@ -19,6 +19,21 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Collections
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "default"
+      author: "nannan2008"
+
 # Twitter/X card
 twitter:
   card: summary_large_image
@@ -43,9 +58,9 @@ exclude:
   - node_modules
   - "*.gemspec"
   - llms.txt
+  - blog/index.md  # Blog index is a page, not a post
 
-# Header pages (uncomment when privacy.md / changelog.md exist)
-# header_pages:
-#   - index.md
-#   - privacy.md
-#   - changelog.md
+# Header pages
+header_pages:
+  - index.md
+  - blog/index.md
