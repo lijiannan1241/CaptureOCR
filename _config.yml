@@ -25,6 +25,8 @@ collections:
     output: true
     permalink: /blog/:title/
     dir: blog/posts
+  # Ensure collection documents get the right permalink
+  # The permalink above should work but we also set it in defaults
 
 # Defaults for collections
 defaults:
@@ -34,6 +36,7 @@ defaults:
     values:
       layout: "default"
       author: "nannan2008"
+      permalink: "/blog/:title/"
 
 # Twitter/X card
 twitter:
