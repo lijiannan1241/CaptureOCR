@@ -59,7 +59,6 @@ exclude:
   - node_modules
   - "*.gemspec"
   - llms.txt
-  - blog/index.md  # Blog index is a page, not a post
 
 # Header pages
 header_pages:
