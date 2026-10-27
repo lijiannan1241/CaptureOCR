@@ -167,7 +167,7 @@ Slower but 100% reliable.
 
 ## Get Local Scrolling OCR on Windows 11
 
-1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_scrolling_w11) ($2.99 one-time, no subscription)
+1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time, no subscription)
 2. Open long page (terminal, log, doc, chat)
 3. `Ctrl+Shift+X` + `Shift` → capture scroll
 4. Export CSV → done
@@ -176,7 +176,7 @@ No cloud, no subscription, works offline.
 
 ---
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_scrolling_w11" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
   <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 

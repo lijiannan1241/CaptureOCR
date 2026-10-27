@@ -108,7 +108,12 @@ No retyping. No "wait, which cell was this?" The coordinates tell you exactly wh
 
 ## Get Started
 
-1. Install from [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_multiple_regions) ($2.99 one-time, no subscription)
+1. Install from [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time, no subscription)
+
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
+
 2. Press `Ctrl+Shift+X`
 3. Drag your regions
 4. Export CSV → done

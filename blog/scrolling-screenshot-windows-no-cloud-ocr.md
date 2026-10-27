@@ -107,11 +107,11 @@ Region capture is the reliable fallback. If scrolling fails, capture regions man
 
 If you need full-page OCR without sending data out, CaptureOCR is one of the few tools that does scrolling capture + local OCR in one package. $2.99 one-time on the Microsoft Store.
 
-[Get it here](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_scrolling_ocr) — no subscription, works offline.
+[Get it here](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) — no subscription, works offline.
 
 ---
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_scrolling_ocr" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
   <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 

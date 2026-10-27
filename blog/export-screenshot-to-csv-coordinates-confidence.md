@@ -200,7 +200,7 @@ Export `.snipx` → unzip → `session.json` contains:
 
 ## Get Structured Data from Screenshots
 
-1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_csv_export) ($2.99 one-time)
+1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
 2. Capture regions → batch OCR
 3. Export CSV → feed your pipeline
 

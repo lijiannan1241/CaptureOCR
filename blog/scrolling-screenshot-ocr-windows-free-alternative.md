@@ -122,7 +122,11 @@ If scrolling fails: capture regions manually. It's slower but 100% reliable.
 
 ## Get the Tool
 
-[CaptureOCR on Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_scrolling_ocr) — $2.99 one-time. Includes both region and scrolling capture.
+[CaptureOCR on Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) — $2.99 one-time. Includes both region and scrolling capture.
+
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
 
 [ShareX](https://getsharex.com/) — Free, open source. Best-in-class scrolling capture.
 

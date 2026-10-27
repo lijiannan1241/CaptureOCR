@@ -130,9 +130,15 @@ To be fair: Windows Snipping Tool / PowerToys Text Extractor are **free and buil
 
 For Chinese text on Windows in 2026: **CaptureOCR with PP-OCRv6 is the most capable offline option.** Windows built-in is a decent backup for simple cases.
 
-$2.99 one-time. [Try it from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_chinese_ocr).
+$2.99 one-time. [Try it from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS).
+
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
 
 ---
+
+**Related reads:**
 
 **Related reads:**
 - [Offline OCR Software for Invoices on Windows 11](/CaptureOCR/blog/posts/offline-ocr-software-invoices-windows-11/)

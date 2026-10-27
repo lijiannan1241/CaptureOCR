@@ -199,13 +199,13 @@ pip install --no-deps rapidocr
 
 ## Get It Running
 
-1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_tech_setup) ($2.99 one-time)
+1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
 2. `Ctrl+Shift+X` → capture
 3. Done. No Python, no pip, no model downloads (Fast mode).
 
 ---
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_tech_setup" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
   <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 

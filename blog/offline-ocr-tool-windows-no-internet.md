@@ -130,14 +130,14 @@ After that: fully offline. Air-gapped machine? Install Store version on connecte
 
 ## Get Offline OCR Working
 
-1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_offline_ocr) ($2.99 one-time)
+1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
 2. (Optional) Switch to Accurate mode once to download model
 3. Disconnect internet → OCR still works
 4. Process sensitive docs with confidence
 
 ---
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_offline_ocr" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
   <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 

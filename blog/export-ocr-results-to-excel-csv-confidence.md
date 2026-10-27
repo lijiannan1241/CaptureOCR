@@ -202,7 +202,11 @@ Export `.snipx` → unzip → `session.json` contains normalized boxes (0–1 re
 
 ## Get Structured Data from Screenshots
 
-1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_csv_confidence) ($2.99 one-time)
+1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
+
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
 2. Capture regions → batch OCR
 3. Export CSV → feed your pipeline
 

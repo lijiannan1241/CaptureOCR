@@ -138,13 +138,13 @@ Low-confidence rows (under 0.90) often need review. In your editor, search for `
 
 ## Get the Workflow
 
-1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_markdown_table) ($2.99 one-time)
+1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
 2. `Ctrl+Shift+X` → capture your data
 3. Export Markdown → paste anywhere
 
 ---
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_markdown_table" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
   <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 

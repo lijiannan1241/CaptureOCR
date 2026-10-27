@@ -106,7 +106,7 @@ last_modified_at: 2026-10-27
           <a href="/CaptureOCR/" hreflang="en" lang="en">EN</a>
           <a href="/CaptureOCR/zh/" aria-current="page" hreflang="zh-Hans" lang="zh-Hans">中文</a>
         </span>
-        <a class="btn btn-primary" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_nav_zh" rel="noopener" target="_blank">
+        <a class="btn btn-primary" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" rel="noopener" target="_blank">
           <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
           获取应用
         </a>
@@ -126,7 +126,7 @@ last_modified_at: 2026-10-27
         <p class="lede">一次捕获多个区域，标注后导出编号 Markdown 表格或 CSV。PP-OCRv6 在 Windows 上本地运行 —— 支持中文、英文和混合排版。无需账号、无上传、无订阅。</p>
 
         <div class="hero-actions">
-          <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero_zh" target="_blank" rel="noopener" aria-label="从微软商店获取 CaptureOCR">
+          <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="从微软商店获取 CaptureOCR">
             <svg class="store-badge-icon" aria-hidden="true"><use href="#i-store"/></svg>
             <span class="store-badge-text">
               <span class="store-badge-kicker">从以下处获取</span>
@@ -309,7 +309,7 @@ last_modified_at: 2026-10-27
           <li>导出含坐标与置信度的 Markdown</li>
           <li>标注美化后仍可提取文本</li>
         </ul>
-        <a class="btn btn-amber" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_video_zh" target="_blank" rel="noopener">
+        <a class="btn btn-amber" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener">
           <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
           获取 CaptureOCR
         </a>
@@ -470,7 +470,7 @@ last_modified_at: 2026-10-27
       <h2 id="cta-title">告别手输截图</h2>
       <p>在 Windows 上安装 CaptureOCR，一次会话捕获所需字段，导出干净表格。</p>
       <div class="cta-actions">
-        <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_cta_zh" target="_blank" rel="noopener" aria-label="从微软商店获取 CaptureOCR">
+        <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="从微软商店获取 CaptureOCR">
           <svg class="store-badge-icon" aria-hidden="true"><use href="#i-store"/></svg>
           <span class="store-badge-text">
             <span class="store-badge-kicker">从以下处获取</span>
@@ -522,8 +522,8 @@ last_modified_at: 2026-10-27
         "operatingSystem": "Windows 10, Windows 11",
         "softwareVersion": "1.0.0.0",
         "url": "https://lijiannan1241.github.io/CaptureOCR/zh/",
-        "downloadUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
-        "installUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1",
+        "downloadUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS",
+        "installUrl": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS",
         "inLanguage": ["en", "zh-Hans"],
         "description": "CaptureOCR 是 Windows 截图 OCR 工作流：一次捕获多区域、标注美化、用 PP-OCRv6 本地识别中英混合文本、导出带坐标和置信度的编号 Markdown 表格或 CSV。",
         "featureList": [
@@ -545,7 +545,7 @@ last_modified_at: 2026-10-27
           "price": "2.99",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1"
+          "url": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS"
         },
         "publisher": { "@id": "https://lijiannan1241.github.io/CaptureOCR/#publisher" },
         "datePublished": "2026-10-21",
@@ -621,7 +621,7 @@ last_modified_at: 2026-10-27
             <li><a href="#video">预告片</a></li>
             <li><a href="#how-it-works">如何使用</a></li>
             <li><a href="#faq">常见问题</a></li>
-            <li><a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_footer_zh" rel="noopener" target="_blank">微软商店</a></li>
+            <li><a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" rel="noopener" target="_blank">微软商店</a></li>
           </ul>
         </div>
 

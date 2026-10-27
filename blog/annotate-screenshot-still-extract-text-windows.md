@@ -212,7 +212,11 @@ Export `.snipx` → send to colleague. They open in CaptureOCR → see annotatio
 
 ## Get Annotate + OCR Working
 
-1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_annotate_ocr) ($2.99 one-time)
+1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
+
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
 2. Capture regions → OCR
 3. Canvas tab → annotate → beautify
 4. Export PNG + Markdown → done

@@ -179,7 +179,11 @@ Share `.snipx` with colleague → they open in CaptureOCR → full session resto
 
 ## Get Batch OCR Working
 
-1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_batch_ocr) ($2.99 one-time)
+1. [Install CaptureOCR](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) ($2.99 one-time)
+
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+  <img src="/assets/ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
+</a>
 2. `Ctrl+Shift+X` → capture 5+ regions
 3. Click "Recognize All" (or enable auto-OCR)
 4. Export CSV → done

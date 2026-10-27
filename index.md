@@ -106,7 +106,7 @@ last_modified_at: 2026-10-27
           <a href="/CaptureOCR/" aria-current="page" hreflang="en" lang="en">EN</a>
           <a href="/CaptureOCR/zh/" hreflang="zh-Hans" lang="zh-Hans">中文</a>
         </span>
-        <a class="btn btn-primary" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_nav" rel="noopener" target="_blank">
+        <a class="btn btn-primary" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" rel="noopener" target="_blank">
           <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
           Get the app
         </a>
@@ -126,7 +126,7 @@ last_modified_at: 2026-10-27
         <p class="lede">Capture several regions in one pass, annotate them, and export a numbered Markdown table or CSV. PP-OCRv6 runs locally on Windows — Chinese, English, and mixed layouts. No account, no upload, no subscription.</p>
 
         <div class="hero-actions">
-          <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_hero" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+          <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
             <svg class="store-badge-icon" aria-hidden="true"><use href="#i-store"/></svg>
             <span class="store-badge-text">
               <span class="store-badge-kicker">Get it from</span>
@@ -309,7 +309,7 @@ last_modified_at: 2026-10-27
           <li>Export Markdown with coordinates and confidence</li>
           <li>Annotate and beautify without losing text extraction</li>
         </ul>
-        <a class="btn btn-amber" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_video" target="_blank" rel="noopener">
+        <a class="btn btn-amber" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener">
           <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
           Get CaptureOCR
         </a>
@@ -470,7 +470,7 @@ last_modified_at: 2026-10-27
       <h2 id="cta-title">Stop retyping screenshots</h2>
       <p>Install CaptureOCR on Windows, capture the fields you need in one session, and export a clean table.</p>
       <div class="cta-actions">
-        <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_cta" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
+        <a class="store-badge" href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" target="_blank" rel="noopener" aria-label="Get CaptureOCR from the Microsoft Store">
           <svg class="store-badge-icon" aria-hidden="true"><use href="#i-store"/></svg>
           <span class="store-badge-text">
             <span class="store-badge-kicker">Get it from</span>
@@ -545,7 +545,7 @@ last_modified_at: 2026-10-27
           "price": "2.99",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1"
+          "url": "https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS"
         },
         "publisher": { "@id": "https://lijiannan1241.github.io/CaptureOCR/#publisher" },
         "datePublished": "2026-10-21",
@@ -621,7 +621,7 @@ last_modified_at: 2026-10-27
             <li><a href="#video">Trailer</a></li>
             <li><a href="#how-it-works">How it works</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_footer" rel="noopener" target="_blank">Microsoft Store</a></li>
+            <li><a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS" rel="noopener" target="_blank">Microsoft Store</a></li>
           </ul>
         </div>
 

@@ -12,13 +12,13 @@ last_modified_at: 2026-10-27
 
 Capture multiple regions in one pass, annotate them, and export a numbered Markdown table or CSV. PP-OCRv6 runs locally — Chinese, English, and mixed layouts. No account. No upload. $2.99 once.
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_pages_geo&hl=en-US&gl=HK">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS&hl=en-US&gl=HK">
   <img src="ms-store-badge-en.png" alt="Get CaptureOCR from Microsoft Store" width="200" style="height:auto; border:0;">
 </a>
 
-[Website](https://lijiannan1241.github.io/CaptureOCR/) · [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_readme) · [FAQ](https://lijiannan1241.github.io/CaptureOCR/#frequently-asked-questions) · [Issues](https://github.com/lijiannan1241/CaptureOCR/issues)
+[Website](https://lijiannan1241.github.io/CaptureOCR/) · [Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) · [FAQ](https://lijiannan1241.github.io/CaptureOCR/#frequently-asked-questions) · [Issues](https://github.com/lijiannan1241/CaptureOCR/issues)
 
-<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_readme">
+<a href="https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS">
   <img src="assets/shots/01-hero.png" alt="CaptureOCR window with five numbered regions on a vendor invoice next to an exported Markdown table with coordinates and confidence." width="820">
 </a>
 
@@ -42,7 +42,7 @@ Capture multiple regions in one pass, annotate them, and export a numbered Markd
 
 ## Install
 
-1. Open the [Microsoft Store listing](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=github_readme).
+1. Open the [Microsoft Store listing](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS).
 2. Install on Windows 10/11 x64 (126 MB).
 3. Launch CaptureOCR and press `Ctrl+Shift+X` (default capture hotkey), or use the tray menu.
 

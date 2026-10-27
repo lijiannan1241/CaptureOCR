@@ -105,7 +105,7 @@ Compare ShareX + CaptureOCR vs built-in scrolling. Row-signature stitching (32 b
 
 ## Product Links
 
-- **Download**: [CaptureOCR on Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=blog_index) — $2.99 one-time
+- **Download**: [CaptureOCR on Microsoft Store](https://apps.microsoft.com/store/detail/9PBP8VBG4RJ1?cid=DevShareMCLPCS) — $2.99 one-time
 - **GitHub**: [github.com/lijiannan1241/CaptureOCR](https://github.com/lijiannan1241/CaptureOCR)
 - **Issues/Support**: [GitHub Issues](https://github.com/lijiannan1241/CaptureOCR/issues)
 - **Full FAQ**: [/CaptureOCR/#frequently-asked-questions](/CaptureOCR/#frequently-asked-questions)
